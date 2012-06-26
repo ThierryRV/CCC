@@ -1,0 +1,2 @@
+SetEnv RAILS_ENV production
+SetEnv GEM_PATH /home/ccc/gems/

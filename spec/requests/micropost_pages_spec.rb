@@ -38,7 +38,7 @@ describe "Micropost pages" do
       before { visit root_path }
 
       it "should delete a micropost" do
-        expect { click_link "delete" }.should change(Micropost, :count).by(-1)
+        expect { click_link "Supprimer" }.should change(Micropost, :count).by(-1)
       end
     end
   end

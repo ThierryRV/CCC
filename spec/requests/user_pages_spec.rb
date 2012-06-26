@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'spec_helper'
 
 describe "User pages" do
@@ -79,8 +80,8 @@ describe "User pages" do
 
   describe "signup page" do
     before { visit signup_path }
-    let(:heading)    { 'Sign up' }
-    let(:page_title) { 'Sign up' }
+    let(:heading)    { "S'inscrire" }
+    let(:page_title) { "S'inscrire" }
 
     it_should_behave_like "all user pages"
   end
@@ -91,13 +92,13 @@ describe "User pages" do
 
     describe "with invalid information" do
       it "should not create a user" do
-        expect { click_button "Create my account" }.not_to change(User, :count)
+        expect { click_button "Créer mon compte" }.not_to change(User, :count)
       end
 
       describe "error messages" do
-        before { click_button "Create my account" }
+        before { click_button "Créer mon compte" }
 
-        it { should have_selector('title', text: 'Sign up') }
+        it { should have_selector('title', text: "S'inscrire") }
         it { should have_content('error') }
       end
 
@@ -105,25 +106,25 @@ describe "User pages" do
 
     describe "with valid information" do
       before do
-        fill_in "Name",         with: "Example User"
-        fill_in "Email",        with: "user@example.com"
-        fill_in "Password",     with: "foobar"
-        fill_in "Confirmation", with: "foobar"
+        fill_in "Nom",                          with: "Example User"
+        fill_in "Email",                        with: "user@example.com"
+        fill_in "Mot de passe",                 with: "foobar"
+        fill_in "Confirmation du mot de passe", with: "foobar"
       end
 
       it "should create a user" do
         expect do
-          click_button "Create my account"
+          click_button "Créer mon compte"
         end.to change(User, :count).by(1)
       end
 
       describe "after saving the user" do
-        before { click_button "Create my account" }
+        before { click_button "Créer mon compte" }
         let(:user) { User.find_by_email('user@example.com') }
 
         it { should have_selector('title', text: user.name) }
         it { should have_selector('div.alert.alert-success', text: 'Welcome') }
-        it { should have_link('Sign out') }
+        it { should have_link('Se déconnecter') }
       end
     end
   end
@@ -151,16 +152,16 @@ describe "User pages" do
       let(:new_name)  { "New Name" }
       let(:new_email) { "new@example.com" }
       before do
-        fill_in "Name",             with: new_name
-        fill_in "Email",            with: new_email
-        fill_in "Password",         with: user.password
-        fill_in "Confirm Password", with: user.password
+        fill_in "Nom",                          with: new_name
+        fill_in "Email",                        with: new_email
+        fill_in "Mot de passe",                 with: user.password
+        fill_in "Confirmation du mot de passe", with: user.password
         click_button "Save changes"
       end
 
       it { should have_selector('title', text: new_name) }
       it { should have_selector('div.alert.alert-success') }
-      it { should have_link('Sign out', href: signout_path) }
+      it { should have_link('Se déconnecter', href: signout_path) }
       specify { user.reload.name.should  == new_name }
       specify { user.reload.email.should == new_email }
     end
@@ -199,11 +200,11 @@ describe "User pages" do
           sign_in admin
           visit users_path
         end
-        it { should have_link('delete', href: user_path(User.first)) }
+        it { should have_link('Supprimer', href: user_path(User.first)) }
         it "should be able to delete another user" do
-          expect { click_link('delete') }.to change(User, :count).by(-1)
+          expect { click_link('Supprimer') }.to change(User, :count).by(-1)
         end
-        it { should_not have_link('delete', href: user_path(admin)) }
+        it { should_not have_link('Supprimer', href: user_path(admin)) }
       end
     end
 

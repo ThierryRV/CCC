@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'spec_helper'
 
 describe "Authentication" do
@@ -6,21 +7,21 @@ describe "Authentication" do
   describe "signin page" do
     before { visit signin_path }
 
-    it { should have_selector('h1', text: 'Sign in') }
-    it { should have_selector('title', text: 'Sign in') }
+    it { should have_selector('h1', text: 'Se connecter') }
+    it { should have_selector('title', text: 'Se connecter') }
   end
 
   describe "signin" do
     before { visit signin_path }
 
     describe "with invalid information" do
-      before { click_button "Sign in" }
+      before { click_button "Se connecter" }
 
-      it { should have_selector('title', text: 'Sign in') }
+      it { should have_selector('title', text: 'Se connecter') }
       it { should have_error_message('Invalid') }
 
       describe "after visiting another page" do
-        before { click_link "Home" }
+        before { click_link "Accueil" }
         it { should_not have_selector('div.alert.alert-error') }
       end
     end
@@ -31,16 +32,16 @@ describe "Authentication" do
 
       it { should have_selector('title', text: user.name) }
 
-      it { should have_link('Users', href: users_path) }
-      it { should have_link('Profile', href: user_path(user)) }
-      it { should have_link('Settings', href: edit_user_path(user)) }
-      it { should have_link('Sign out', href: signout_path) }
+      it { should have_link('Cyclos', href: users_path) }
+      it { should have_link('Profil', href: user_path(user)) }
+      it { should have_link('Informations', href: edit_user_path(user)) }
+      it { should have_link('Se déconnecter', href: signout_path) }
 
-      it { should_not have_link('Sign in', href: signin_path) }
+      it { should_not have_link('Se connecter', href: signin_path) }
 
       describe "followed by signout" do
-        before { click_link "Sign out" }
-        it { should have_link('Sign in') }
+        before { click_link "Se déconnecter" }
+        it { should have_link('Se connecter') }
       end
     end
   end
@@ -54,7 +55,7 @@ describe "Authentication" do
 
         describe "visiting the edit page" do
           before { visit edit_user_path(user) }
-          it { should have_selector('title', text: 'Sign in') }
+          it { should have_selector('title', text: 'Se connecter') }
         end
 
         describe "submitting to the update action" do
@@ -64,17 +65,17 @@ describe "Authentication" do
 
         describe "visiting the user index" do
           before { visit users_path }
-          it { should have_selector('title', text: 'Sign in') }
+          it { should have_selector('title', text: 'Se connecter') }
         end
 
         describe "visiting the following page" do
         before { visit following_user_path(user) }
-        it { should have_selector('title', text: 'Sign in') }
+        it { should have_selector('title', text: 'Se connecter') }
         end
 
         describe "visiting the followers page" do
           before { visit followers_user_path(user) }
-          it { should have_selector('title', text: 'Sign in') }
+          it { should have_selector('title', text: 'Se connecter') }
         end
       end
 

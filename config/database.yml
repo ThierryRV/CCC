@@ -27,12 +27,12 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: ccc_production
+  database: ccc_prod
   pool: 5
-  username: root
-  password:
-#  host: localhost
-  socket: /tmp/mysql.sock
+  username: ccc_cyclo
+  password: Cy3Cl3Co62
+  host: mysql1.alwaysdata.com
+#  socket: /tmp/mysql.sock
 
 cucumber:
   <<: *test
