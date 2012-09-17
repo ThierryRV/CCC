@@ -1,0 +1,52 @@
+<% provide(:title, @evenement.nom) %>
+<h1>Evenements du Codep : <%= @evenement.nom %></h1>
+<div class="row">
+  <div class="span2 center">
+    Identifiant
+  </div>
+  <div class="span2 center">
+    Date
+  </div>
+  <div class="span2 center">
+    Genre
+  </div>
+  <div class="span2 center">
+    Nom
+  </div>
+  <div class="span2 center">
+    Categorie
+  </div>
+</div>
+<div class="row">
+  <div class="span2 center">
+    <%= @evenement.id %>
+  </div>
+  <div class="span2 center">
+    <% if @evenement.le.blank? %>
+        Permanente
+    <% else %>
+        <%= @evenement.le.strftime("%d/%m/%Y") %>
+    <% end %>
+  </div>
+  <div class="span2 center">
+    <%= @evenement.genre %>
+  </div>
+  <div class="span2 center">
+    <%= @evenement.nom %>
+  </div>
+  <div class="span2 center">
+    <%= @evenement.categorie %>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="span12">
+    <h1>Description</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <%= @evenement.description %>
+  </div>
+</div>
+<br/>

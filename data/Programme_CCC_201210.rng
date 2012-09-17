@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <element name="Programmations">
+      <oneOrMore>
+        <element name="Programmation">
+          <element name="Le">
+            <text/>
+          </element>
+          <element name="Groupe">
+            <text/>
+          </element>
+          <element name="Programme_type">
+            <text/>
+          </element>
+          <element name="Programme_nom">
+            <text/>
+          </element>
+          <element name="Distance">
+            <text/>
+          </element>
+          <element name="Heure_de_départ">
+            <text/>
+          </element>
+          <element name="Observations">
+            <text/>
+          </element>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+</grammar>

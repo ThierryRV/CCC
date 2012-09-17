@@ -1,0 +1,803 @@
+<Evenements>
+  <Randonnees_permanentes>
+    <Evenement>
+      <Categorie>ROUTE</Categorie>
+      <Nom>PARIS - MONTGERON - COL DU TOURMALET, Souvenir Jacques GODDET (label 212)</Nom>
+      <Description>
+        Relier Paris ou Montgeron au col du Tourmalet. Tarifs = L: 7,50 &amp;euro;, NL : 10,00 &amp;euro;
+                75 - 00116 - Union des Audax Français - http://www.audax-uaf.com/cyclo/perma/pages/rando.htm
+                BOURGOUIN Catherine - Tel: 06.10.35.02.09 - catherinebourgouin@hotmail.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Categorie>ROUTE</Categorie>
+      <Nom>PARIS - MONTGERON - COL DU GALIBIER, Souvenir Henri DESGRANGE (label 213)</Nom>
+      <Description>Relier Paris ou Montgeron au col du Galibier. Tarifs : L: 7,50 &amp;euro;, NL : 10,00 &amp;euro;
+        75 - 00116 - Union des Audax Français - http://www.audax-uaf.com/cyclo/perma/pages/rando.htm
+        BOURGOUIN Catherine - Tel: 06.10.35.02.09 - catherinebourgouin@hotmail.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Categorie>ROUTE</Categorie>
+      <Nom>PARIS - CORBEIL - MONT VENTOUX, Souvenir Pierre KRAEMER (label 214)</Nom>
+      <Description>Relier Paris ou Montgeron au col du Galibier. Tarif L: 8,00 &amp;euro;, NL : 10,00 &amp;euro;
+        75 - 00116 - Union des Audax Français - http://www.audax-uaf.com/cyclo/perma/pages/rando.htm
+        BOURGOUIN Catherine - Tel: 06.10.35.02.09 - catherinebourgouin@hotmail.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Categorie>ROUTE</Categorie>
+      <Nom>AUX SOURCES DE L’ESSONNE (label 233)</Nom>
+      <Description>Traversée des 4 régions qui constituent l’essonne. Tarifs : L : 5,00 &amp;euro;, -18 ans FFCT : 3,00 &amp;euro;, NL :
+        7,00 &amp;euro;
+        91 - 01393 - UNION SPORT RIS ORANGIS - http://usrocyclo.perso.sfr.fr/
+        Bruno LOPEZ - 01 70 58 19 34 - 06 22 33 27 47 b.lopez@neuf.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Categorie>ROUTE</Categorie>
+      <Nom>GARCHES – ST ANDRE D’APCHON « souvenir René Lousteau »</Nom>
+      <Description>Relier Garches ou Arpajon à Saint-andré d’apchon, Tarifs : L: 5 &amp;euro;, NL : 7 &amp;euro;,- 18 ans : gratuit
+        075 - Codep75 - http://monsite.orange.fr/rando-perm-cd75
+        Jean Michel AZILE - 4 square des ormes - 60270 GOUVIEUX - 06.74.87.60.58 - randopermcd75@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Categorie>ROUTE</Categorie>
+      <Nom>MOULINS ET VALLEES</Nom>
+      <Description>330 km - départ Dourdan en deux jours mini en une fois – Tarifs : L : 3,00 &amp;euro;, NL : 5,00 &amp;euro;, -18 ans NL
+        : 2,00 &amp;euro;
+        255 - CYCLO LONGJUMELLOIS – http://cyclolongjumeau.free.fr/
+        LAFANECHERE Jean - 01.69.09.78.82- cj.lafanechere@wanadoo.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Categorie>ROUTE</Categorie>
+      <Nom>RANDONNEE DES 4 VENTS</Nom>
+      <Description>979 kms - départ Longjumeau – 30 jours maxi en une fois – Tarifs : L : 10,00 &amp;euro;, NL : 12,00 &amp;euro;, -18 ans
+        NL : 2,00&amp;euro;
+        255 - CYCLO LONGJUMELLOIS - http://cyclolongjumeau.free.fr
+        LAFANECHERE Jean - 01.69.09.78.82 - cj.lafanechere@wanadoo.fr
+      </Description>
+    </Evenement>
+  </Randonnees_permanentes>
+  <Programme_2012>
+    <Evenement>
+      <Le>26/02/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>RANDONNEE DES RETROUVAILLES</Nom>
+      <Description>Place Raymond GOMBAULT 91 Ormoy
+        De 8h à 9h30 - Clôture: 13h00
+        Route: 40 / 60 Km
+        Tarifs: L: 2,00 &amp;euro; /NL: 4,00 &amp;euro; -18 ans NL: 0&amp;euro;
+        91 – 91 CODEP ESSONNE- http://cyclotourisme91.free.fr
+        CODEP 91 - 01.64.57.11.81 - cyclo91@sfr.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>26/02/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>RANDONNEE DES RETROUVAILLES</Nom>
+      <Description>
+        Place R. GOMBAULT 91 Ormoy
+        De 8h à 9h30 - Clôture: 13h00
+        VTT: 25 / 45 Km
+        Tarifs: L: 2,00 &amp;euro; /NL: 4,00 &amp;euro; -18 ans NL: Gratuit
+        91 - 91 - CODEP ESSONNE - http://cyclotourisme91.free.fr
+        CODEP 91 - 01.64.57.11.81 - cyclo91@sfr.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>11/03/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>RALLYE DU DRAGON (SOUVENIR Ph. ILDEPHONSE)</Nom>
+      <Description>Gymnase des mares Yvon - place Léonard de Vinci 91 Saint Michel sur Orge
+        De 07h00 à 09h00 - Clôture: 13h30
+        Route: 40 / 70 / 110 Km
+        Tarifs: L: 3,50 &amp;euro;/ NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 - 02465 ST MICHEL SPORTS - http://smscyclo.free.fr
+        GAGIN Roland - 01.60.16.21.27 - gaginrol@aol.com
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>18/03/2011</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>BRM 200 KM DE LONGJUMEAU</Nom>
+      <Description>Stade Langrenay 91 Longjumeau
+        De 07h00 à 08h00 - Clôture: 20h30
+        Route : 200 Km
+        Tarifs: L: 6.00 &amp;euro;/ NL: 8.00 &amp;euro; -18 ans NL: 2.00 &amp;euro;
+        91 - 00255 - CYCLO LONGJUMELLOIS - http://cyclolongjumeau.free.fr
+        ROUILLERIS Carmen - 01.64.48.20.05 - francis.rouille@wanadoo.fr
+        Tarifs de pré inscription- FFCT 4&amp;euro; autres 6&amp;euro;. Faire parvenir chèque et
+        courrier à: Carmen ROUILLERIS 29 rue Henry Dunant 91360 EPINAY
+        sur ORGE avant le 15/03/2012
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>25/03/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>PAR MONTS ET PAR VAUX</Nom>
+      <Description>1ER TROPHEE DU COMITE
+        Salle Des Fêtes 91 BONDOUFLE
+        De 07h30 à 09h30 – Clôture : 12h30
+        Route : 30 / 60 / 90 Km
+        Tarifs: L: 3,00 &amp;euro; /NL: 5,00 &amp;euro; -18 ans NL: 2.00 &amp;euro;
+        91 - 02272 - BONDOUFLE AMICAL CLUB - http://baccyclovtt.free.fr
+        LE ROUZIC Michel - 01.60.86.67.49 - michel.lerouzic@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>01/04/2012</Le>
+      <Categorie>JEUNES</Categorie>
+      <Nom>CRITÉRIUM DÉPARTEMENTAL DU JEUNE VÉTÉTISTE</Nom>
+      <Description>Salle Polyvalente 91 LES GRANGES LE ROI
+        De 08h00 à 09h00 - Clôture: 17h00
+        VTT: 20 Km
+        91 – 91 - CODEP ESSONNE - http://cyclotourisme91.free.fr
+        LAFFARGUE Clément - 06.17.94.34.85 - laffargueclement@hotmail.fr
+        Réservé aux jeunes de 8 à 18 ans licenciés à la FFCT
+        Date limite de pré-inscription le 25 mars 2012
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>01/04/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>LA RISSOISE</Nom>
+      <Description>salle Jean Luc Rouge 2 avenue de l’Aunette 91 Ris Orangis
+        De 07h00 à 09h00 - Clôture: 13h00
+        Route: 35 / 65 / 85 / 100 Km
+        Tarifs: L: 3,50 &amp;euro;/ NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 – 01393 - UNION SPORT RIS ORANGIS - http://usrocyclo.perso.sfr.fr/
+        ANDRIEU Jean luc - 01.69.06.92.29 - jlcyclo.ris@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>01/04/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>TRANSUDESSONNE</Nom>
+      <Description>1ER TROPHY DU COMITE
+        Gymnase des singes verts 91 Boutigny sur Essonne
+        De 08h00 à 09h00 - Clôture: 13h00
+        VTT : 25 / 35 / 45 / 55 Km
+        Tarifs: L: 4,00 &amp;euro;/ NL: 6,00 &amp;euro; -18 ans NL: Gratuit
+        91 - 00805 - V C B S CHILLY MAZARIN - http://www.vcbs.org
+        DENIBAS Daniel - 01.64.57.82.92 - jddenibas@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>08/04/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>RANDONNEE DE LA TOUR</Nom>
+      <Description>Cosom (stade) chemin de Carcassonne 91 Linas
+        De 07h00 à 09h30 - Clôture: 13h30
+        Route : 30 / 70 / 110 Km
+        Tarifs: L: 3,50 &amp;euro;/ NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 - 03874 -CLUB DE CYCLOT DE LINAS - http://cclm.fr
+        BLONDIAUX Yves - 06.84.25.11.70 - yves.blondiaux@wanadoo.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>08/04/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>RANDONNEE DE LA TOUR</Nom>
+      <Description>Cosom (stade) chemin de Carcassonne 91 Linas
+        De 07h00 à 09h30 - Clôture: 13h30
+        VTT : 28 / 37/ 47 / 72 Km
+        Tarifs: L: 3,50 &amp;euro;/ NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 - 03874 - CLUB DE CYCLOT DE LINAS - http://cclm.fr
+        BLONDIAUX Yves - 06.84.25.11.70 - yves.blondiaux@wanadoo.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>15/04/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>L’NTER REGIONALE</Nom>
+      <Description>Salle de la maison neuve Parking Auchan - 91 Brétigny sur Orge
+        De 07h00 à 09h00 - Clôture:14h00
+        Route : 30 / 70 / 100 / 120 Km
+        Tarifs: L: 5,00 &amp;euro;/ NL: 7,00 &amp;euro; -18 ans NL: 5,00 &amp;euro;
+        91 - 03110 - CLUB SPORTIF BRETIGNY http://csbcyclotourisme.free.fr
+        PAPILLON Thierry - 01.60.84.75.80 – thpapillon@wanadoo.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>22/04/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>BALADE GIFFOISE EN VALLEE DE CHEVREUSE</Nom>
+      <Description>Gymnase De Courcelles 91 Gif sur Yvette
+        De 07 h 00 à 09 h 00 - Cloture: 13 h 00
+        Route : 40 / 70 / 105 km
+        Tarifs: L : 3,50 &amp;euro; - NL: 5,50 &amp;euro; - 18 ans NL: Gratuit
+        91 - 02125 - CYCLO CLUB VALLEE DE CHEVREUSE
+        BRIERE Bernard - 01.47.09.08.50 - bernardetbrigitte@club-internet.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>28/04/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>MENNECY - MONTARGIS – MENNECY</Nom>
+      <Description>Parc de villeroy 91 Mennecy
+        De 06h30 à 09h00 - Clôture: 18h00
+        Route: 100 / 150 / 200 Km
+        Tarifs: L: 14,00 &amp;euro;/ NL: 16,00 &amp;euro; -18 ans NL: Gratuit
+        75 - 01222 - AS AEROPORTS DE PARIS
+        http://www.asaeroportsdepariscyclisme.com/
+        SUIRE Jean-guy - 01.60.86.48.79 - jgsuire@voila.fr
+        Tarifs = fonction des distances : 200km (repas compris) =14&amp;euro; /
+        licenciés; 16&amp;euro; / NON licenciés - 150km=9&amp;euro; / licenciés;11&amp;euro;/ N ON
+        licenciés 100km=5&amp;euro; licenciés;7&amp;euro; / NON licenciés –
+        Pas de pré-inscription par email
+        Pour le 200km = pas de majoration pour le repas même si inscription le
+        matin au départ -
+        Nota: à compter de Janvier 2012 - ASADP CYCLO deviendra AAOC de
+        WISSOUS (CODEP91)
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>01/05/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>RANDONNEE LES TROIS VALLEES</Nom>
+      <Description>Salle des associations rue Jules Ferry - 91 Méréville
+        De 07h00 à 10h00 - Clôture: 14h00
+        Route : 25 / 55 / 75 / 100 Km
+        Tarifs: L: 3,50 &amp;euro;/ NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 - 05442 - AMICALE CYCLO MEREVILLE
+        BOINET Jean - 01.64.95.08.73 - j.boinet@aliceadsl.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>06/05/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>ENTRE ECOLE ET ESSONNE</Nom>
+      <Description>2EME TROPHY DU COMITE
+        Stade municipal avenue du Coudray - 91 Le coudray Montceaux
+        De 06h30 à 09h30 - Clôture: 14h30
+        VTT : 25 / 50 / 70 Km
+        Tarifs: L: 4,00 &amp;euro;/ NL: 6,00 &amp;euro; -18 ans NL: 2.00&amp;euro;
+        91 - 03432 - ASSOC.CYCLISTE COUDRAYSIENNE
+        MULAS Angelo - 06.14.59.62.26 - angelo.mulas616@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>06/05/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>RANDONNEE SOUVENIR AUGUSTE LEGOVIC</Nom>
+      <Description>Stade municipal avenue du Coudray - 91 Le coudray Montceaux
+        De 06h30 à 09h30 - Clôture: 14h30
+        Route : 35 / 60 / 90 / 120 Km
+        Tarifs: L: 3,50 &amp;euro; / NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 - 03432 - ASSOC.CYCLISTE COUDRAYSIENNE
+        CHAPON Pascal - 06.83.44.99.57 - chapon.pascal@gmail.com
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>13/05/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>TOUR DE L’ESSONNE</Nom>
+      <Description>Salle Anne Frank rue Daniel Mayer - 91 Longjumeau
+        De 07h00 à 09h00 Clôture: 18h30
+        Route : 163 Km
+        Tarifs: L: 8,00 &amp;euro;/ NL: 10,00 &amp;euro; -18 ans NL: 2,00 &amp;euro;
+        91 – 00255 - CYCLO LONGJUMELLOIS - http://cyclolongjumeau.free.fr
+        SOLDINI-DALENC Serge - 06.61.14.73.33 - sergesoldini@yahoo.fr
+        Tarifs pré inscription FFCT: 7&amp;euro; autres 9&amp;euro; Chèque et courrier à faire
+        parvenir à: Serge SOLDINI-DALENC 22 allée Albert Thomas 91300
+        MASSY avant le 10/05/2012
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>13/05/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>LA VILLABEENNE</Nom>
+      <Description>Gymnase Paul Poisson Rue Du Chemin Vert 91 VILLABE
+        De 07 h
+        00 à 09 h 30 Cloture: 14 h 30
+        Route - 42 / 74 / 92 / 106 km –
+        Tarifs: L: 3,50 &amp;euro; / NL: 5,50 &amp;euro; - 18 ans NL: Gratuit
+        91 - 06260 - CYCLO CLUB DE VILLABE
+        FOURMONT Gilles - 01.60.86.90.42- gilles.ft@wanadoo.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>17/05/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>MONTLHERY MARMANDE</Nom>
+      <Description>Place Du Marche 91 MONTLHHERY
+        De 06h00 à 06h00 - Clôture: HOTEL DE VILLE 47 MARMANDE 18h00
+        Route : 750 Km du 17/05/2012 au 20/05/2012
+        Tarifs: L: 400,00 &amp;euro;/ NL: 405,00 &amp;euro; -18 ans NL: Gratuit
+        91 - 03874 - CLUB DE CYCLOT DE LINAS - http://cclm.fr
+        BLONDIAUX Yves - 06.84.25.11.70 - yves.blondiaux@wanadoo.fr
+        Randonnée organisée par l’association « La Tomate contre la
+        Dystonie « pour récolter des dons au bénéfice de la lutte contre
+        cette maladie - Nombre maximal de participants : 65
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>20/05/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>RALLYE DE L’EVASION</Nom>
+      <Description>Salle des loisirs - 91 Leudeville
+        De 07h30 à 09h00
+        Clôture: 13h00
+        VTT : 20 / 40 / 55 Km
+        Tarifs: L: 4,00 &amp;euro;/NL: 6,00 &amp;euro; -18 ans NL: 2,00 &amp;euro;
+        91 - 06166 – EVASION VERT LEUDEVILLE - http://www.evl.fr.st
+        LEDUC Patrice - 01.64.56.18.93 - patrice.leduc@club-internet.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>20/05/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>RALLYE DES CHATEAUX</Nom>
+      <Description>2EME TROPHEE DU COMITE
+        Salle des Daunettes 91 Ballainvilliers
+        De 07h00 à 09h00 - Clôture: 13h00
+        Route : 30 / 50 / 80 / 110 Km
+        Tarifs: L:3,00 &amp;euro;/ NL: 5,00 &amp;euro; -18 ans NL: 2,00 &amp;euro;
+        91 - 05240 – AS BALLAINVILLIERS SECTION CYCLO -
+        http://scasballainvilliers.free.fr
+        Marcel Peschang – 06.85.84.04.78 - jajama@free.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>26/05/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>LA SAVINIENNE</Nom>
+      <Description>Parc des sports Jean Moulin, 31 bis avenue de l’Armée Leclerc - 91 Savigny
+        sur Orge sur orge
+        De 6h00 à 7h30 - Clôture: 20h
+        Route: 103 / 200 Km -
+        Tarifs 200 km : L: 13,00 &amp;euro;/ NL: 15,00 &amp;euro; -18 ans NL: Gratuit
+        Tarifs 103 km : L: 3,50 &amp;euro;/ NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 - 04155 – AMICALE CYCLO SAVIGNY SUR ORGE -
+        http://cyclosavigny91.fr/
+        FRELON Alain – 01.69.44.09.64 - alain.frelon@wanadoo.fr
+        200 km Majoration de 3 &amp;euro; si inscription après la date limite du 21/05/2012
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>27/05/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>RANDO VTT DECOUVERTE DE L’HUREPOIX «LA 91»</Nom>
+      <Description>Ecole Pasteur place du 19 mars 1962 91 La Norville
+        De 7h00 à 9h30 Clôture: 17h00
+        VTT: 15 / 30 / 55 / 70 / 91 Km
+        Tarifs: L: 5,00 &amp;euro;/ NL: 7,00 &amp;euro; -18 ans NL: 4,00 &amp;euro;
+        91 - 03849 - RANDON CYCLOS NORVILLOIS - http://www.rcn91.fr
+        COUDEUR Jean 91290 LA NORVILLE - 01.60.83.24.68
+        jcoudeur.rcn91@gmail.com
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>02/06/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>150KM AUDAX</Nom>
+      <Description>Magasin Galland 3, Rue Gustave Eiffel 91 MONTGERON
+        De 08 h 30 à 09 h 00 - Clôture: 19 h 00
+        Route : 150 km - Tarifs: L : 26,00 &amp;euro; NL: 28,00 &amp;euro; - 18 ans NL: 26,00 &amp;euro;
+        75 - 00116 - UNION DES AUDAX FRANCAIS – http://www.audax-uaf.com
+        MAURICE Gerard - 01.69.34.29.89 gerard.maurice2@orange.fr
+        Brevet Audax 150 km - Pour les moins de 18 ans FFCT,
+        engagement gratuit, seuls les frais de restauration seront à
+        leur charge.
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>03/06/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>CONVERGENCE FRANCILIENNE</Nom>
+      <Description>A déterminer – 91
+        Rallier Paris depuis l’Essonne
+        Tarifs : Gratuit
+        91 – 91 CODEP ESSONNE- http://cyclotourisme91.free.fr
+        CODEP 91 - 01.64.57.11.81 - cyclo91@sfr.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>09/06/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>LA NUIT VTT DE L'ORGE 9</Nom>
+      <Description>Face à la piscine de st Michel sur orge - 91 St Michel sur orge
+        De 20h30 à 22h30 - Clôture: 2h00
+        VTT: 10 / 15 / 25 / 35 Km
+        Tarifs: L: 4,00 &amp;euro;/ NL: 6,00 &amp;euro; -18 ans NL: 2,00 &amp;euro;
+        91 - 07042 - SLC SAINT MICHEL - http://slcvtt.free.fr
+        LALLE Eric - 06.12.74.68.55 - slcvtt@free.fr
+        Randonnée vtt nocturne. port du casque, gilet réfléchissant et
+        eclairages (av&amp;ar) obligatoires
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>10/06/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>LA BRIISSOISE – SOUVENIR GERARD ROHART</Nom>
+      <Description>Gymnase Rue De La Fontaine De Ville 91 BRIIS SOUS FORGES
+        De 07 h 00 à 10 h 00 – Clôture : 14 h 00 - 25 / 45 / 75 / 110 km
+        Tarifs: L : 4,00 &amp;euro; / NL: 6,00 &amp;euro; - 18 ans NL: 2,00 &amp;euro;
+        91 - 07348 – CLUB CYCLISTE BRIISSOIS -
+        http://cycloclubbriissois.free.fr
+        DENIS Pascal - 01.64.90.73.29 - pascalvero_denis@hotmail.com
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>10/06/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>LA RONDE DES UZELLES</Nom>
+      <Description>3 rue gustave eiffel route de corbeil cycles Galland - 91 Montgeron
+        De 7h00 à 10h30 - Clôture: 14h00
+        VTT: 15 / 30 / 55 Km
+        Tarifs: L: 4,00 &amp;euro;/ NL: 5,00 &amp;euro; -18ans NL: Gratuit
+        91 - 01921 - AMICALE CYCLO SENART - http://acs.cyclo.club.free.fr
+        VAZQUEZ Ivan - 01.69.42.65.92 - vazquezivan@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>10/06/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>109EME ANNIVERSAIRE DU 1ER DEPART DU TOUR DE FRANCE</Nom>
+      <Description>Cycles Galland - 3 rue Gustave Eiffel - route de Corbeil - 91 Montgeron
+        De 6h30 à 10h - Clôture: 14h
+        Route: 30 / 60 / 90 / 110 / 145 Km
+        Tarifs: L: 3,50 &amp;euro; NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 - 01921 - AMICALE CYCLO SENART - http://acs.cyclo.club.free.fr
+        VAZQUEZ Ivan - 01.69.42.65.92 - vazquezivan@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>17/06/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>LES BOUCLES DE MORIGNY</Nom>
+      <Description>Complexe sportifJ. Colombel - 91 Morigny-Champigny
+        De 7h00 à 9h30 - Clôture: 13h00
+        Route: 50 / 75 / 105 Km
+        Tarifs: L: 4,00 &amp;euro;/ NL: 6,00 &amp;euro; -18 ans NL: 3 &amp;euro;
+        91 - 07578 – ASSOCIATION DES CYCLOS DE MORIGNY
+        COCHETEAU Alain - 06.24.12.78.54 - alain.cocheteau@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>17/06/2012</Le>
+      <Categorie>MARCHE</Categorie>
+      <Nom>LES BOUCLES DE MORIGNY</Nom>
+      <Description>Complexe sportifJ. Colombel - 91 Morigny-Champigny
+        Depart 9h00 – Clôture : 13h
+        Marche : 11 Km
+        Tarifs: L 3,00 &amp;euro; / NL: 5,00 &amp;euro; - 18 ans NL: 3,00 &amp;euro;
+        91 - 07578 – ASSOCIATION DES CYCLOS DE MORIGNY
+        COCHETEAU Alain - 06.24.12.78.54 - alain.cocheteau@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>17/06/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>LES 2 VALLEES</Nom>
+      <Description>Complexe Sportif 91 CHEPTAINVILLE
+        De 7h30 à 11h00 – Clôture : 15h00
+        VTT: 15 / 37 / 56 / 74 Km
+        Tarifs: L: 4.00&amp;euro; - NL: 6 &amp;euro; - -18 ans L: Gratuit - -18 ans NL: 4 &amp;euro;
+        91 - 06671 - VELO VERT FRANCILIEN
+        DELABARRE Jean Luc - 01.60.84.78.59- mabaju3@aol.com
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>17/06/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>LA LIMOURIENNE</Nom>
+      <Description>Halle Des Sports 91 LIMOURS
+        De 07 h 00 à 09 h 00 Clôture 13 h 00 – Route : 35 / 75 / 95 km
+        Tarifs: L : 3,50 &amp;euro; / NL: 5,50 &amp;euro; - 18 ans NL: G
+        91 - 06724 - CYCLO CLUB DE LIMOURS - http://ccllimours.free.fr
+        JOUNIAUX Olivier - 01.64.91.12.08 - olivier.jouniaux@libertysurf.fr
+        la halle des sports se situe route d’Arpajon
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>17/06/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>LA LIMOURIENNE</Nom>
+      <Description>Halle Des Sports 91 LIMOURS
+        De 07 h 00 à 09 h 00 Clôture 13 h 00
+        VTT : 15 / 30 km
+        Tarifs: L : 3,00 &amp;euro; / NL: 5,00 &amp;euro; - 18 ans NL: Gratuit
+        91 - 06724 - CYCLO CLUB DE LIMOURS - http://ccllimours.free.fr
+        JOUNIAUX Olivier - 01.64.91.12.08 - olivier.jouniaux@libertysurf.fr
+        la halle des sports se situe route d’Arpajon
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>24/06/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>ENTRE PLAINE ET BOIS</Nom>
+      <Description>Salle polyvalente - 91 Les granges le roi
+        De 7h00 à 10h Clôture: 14h00
+        Route: 30 / 65 / 80 / 105 Km
+        Tarifs: L: 3,50 &amp;euro;/ NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 - 07349 - VELO CLUB GRANGEOIS - http://site.vcg.free.fr/vcg
+        BOUILLY Jean-michel - 06.07.74.32.36 - jeanmichel.bouilly@free.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>01/07/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>LA BRUNOYENNE</Nom>
+      <Description>3EME TROPHEE DU COMITE
+        Stade 91 BRUNOY
+        De 06 h 30 à 09 h 00 Clôture: 14 h 30
+        Route : 25 / 50 / 85 / 120 km
+        Tarifs: L : 3,00 &amp;euro; / NL: 5,00 &amp;euro; - 18 ans NL 2,00 &amp;euro;
+        91 - 07419 - CYCLO BRUNOY - http://clubcyclobrunoy.free.fr/
+        MARLIERE Bernard - 06.14.20.36.83- cyclobrunoy@gmail.com
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>07/07/2012</Le>
+      <Categorie>MARCHE</Categorie>
+      <Nom>MARCHE DINATOIRE</Nom>
+      <Description>Salle polyvalente - 91 Les granges le roi
+        De 18h à 19h - Clôture: 23h30
+        Marche : 8 / 12 Km
+        Tarifs: L: 12&amp;euro; / NL: 12,00 &amp;euro; / -18 : 5&amp;euro; / -5 ans : gratuit
+        91 - 07349 - VELO CLUB GRANGEOIS - http://site.vcg.free.fr/vcg
+        VERSTRAETE Jean-Luc - 01.60.81.08.11 - jeanluc.
+        verstraete0102@orange.fr
+        Une marche dînatoire (donc incluant un repas complet) sur un
+        parcours de 8 ou 12 km
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>02/09/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>L’ONCEENNE</Nom>
+      <Description>Salle polyvalente - 91 Oncy sur école
+        De 7h30 à 10h30 - Clôture: 13h30
+        VTT: 10 / 25 / 35 / 45 / 55 / 75 Km
+        Tarifs: L: 4,00 &amp;euro;/ NL: 6,00 &amp;euro; -18 ans NL: 6,00 &amp;euro;
+        91 - 06485 – ONCY NOISY CYCLO CLUB - http://www.chez.com/oncc/
+        HAZARD Nicolas - 01.64.98.65.74 - fpfoucher@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>02/09/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>LA SAINTRYENNE</Nom>
+      <Description>4EME TROPHEE DU COMITE
+        Salle Corot 91 SAINTRY SUR SEINE
+        De 07 h 00 à 10 h 00 Clôture:
+        Route : 14 h 00 - 50 / 85 / 110 km
+        Tarifs: L : 3,50 &amp;euro; NL: 5,50 &amp;euro; - 18 ans NL: Gratuit
+        91 - 07327 - ASS CYCLO CLUB DE SAINTRY –
+        http://cyclo.club.saintry.free.fr
+        DEBURGRAVE Roger - 01.69.89.28.07 - roger.deburgrave-gudel@wanadoo.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>09/09/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>TRENTENAIRE DU CCLM : CIRCUIT DES LEGENDES</Nom>
+      <Description>Autodrome De Linas Montlhéry 91 LINAS
+        De 08 h 30 à 09 h 30 - Clôture: 12 h 00 à Hôtel de ville 91 Montlhéry
+        Route : 30 / 50 / 80 km
+        Tarifs: L : 0,00 &amp;euro; / NL: 5,00 &amp;euro; - 18 ans NL: Gratuit
+        91 - 03874 CLUB DE CYCLOT DE LINAS – http://cclm.fr
+        BLONDIAUX Yves - 06.84.25.11.70- yves.blondiaux@wanadoo.fr-
+        Manifestation organisée à l’occasion du trentenaire du CCLM sur le
+        circuit mythique de l’Autodrome.
+        Pré-inscription obligatoire; Nombre de participants limité
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>09/09/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>LES VALLEES DE LA JUINE</Nom>
+      <Description>3EME TROPHY DU COMITE
+        Complexe sportif J. Colombel - 91 Morigny-Champigny
+        De 7h00 à 9h30 - Clôture: 13h00
+        VTT: 15 / 25 / 35 / 55 Km
+        Tarifs: L: 4,00 &amp;euro;/ NL: 6,00 &amp;euro; -18 ans NL: Gratuit
+        91 - 07578 – ASSOCIATION DES CYCLOS DE MORIGNY
+        COCHETEAU Alain - 01.64.94.49.85 - alain.cocheteau@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>16/09/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>L’ESSONNIEN 21EME RALLYE VTT FRANCILIEN</Nom>
+      <Description>Centre Aéré Grobois 91 Yerres
+        De 7h00 à 10h00 - Clôture : 14h00
+        VTT: 15 / 25 /35 / 55 Km
+        Tarifs: L: 5,00 &amp;euro;/ NL:7,00 &amp;euro; -18 ans NL: 2,00 &amp;euro;
+        91 – 91 CODEP ESSONNE- http://cyclotourisme91.free.fr
+        CODEP 91 - 01.64.57.11.81 - cyclo91@sfr.fr
+        Tarifs FFCT de 2 à 5 &amp;euro; selon parcours.
+        Pré-inscriptions avant le 08/09/2012
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>16/09/2012</Le>
+      <Categorie>MARCHE</Categorie>
+      <Nom>L’ESSONNIEN 21EME EDITION</Nom>
+      <Description>Centre Aéré Grobois 91 Yerres
+        De 9h00 à 10h00 Clôture : 14h00
+        Marche : 10 Km
+        Tarifs: L: 3,00 &amp;euro;/ NL: 5,00 &amp;euro; -18ans NL: 2,00 &amp;euro;
+        91 – 91 CODEP ESSONNE- http://cyclotourisme91.free.fr
+        CODEP 91 - 01.64.57.11.81 - cyclo91@sfr.fr
+        Randonnée marche : inscriptions sur place
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>23/09/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>RALLYE SPORT POUR TOUS DE VILLEBON/YVETTE - (SOUVENIR GERARD NEVERS)</Nom>
+      <Description>Centre sportif St Exupéry - 91 Villebon-sur-Yvette
+        De 07h15 à 09h30 Clôture: 13h30
+        Route : 20 / 37 / 67 / 90 Km
+        Tarifs: L: 3,50 &amp;euro;/ NL: 5,50 &amp;euro; -18 ans NL:2,00 &amp;euro;
+        91- 05126 - VELO CLUB VILLEBON - http://vcvillebon.free.fr
+        SAUX Michel - 01.60.14.29.56 - michel.saux@laposte.net
+        Le parcours de 90 KM est bosselé - parcours de 20 KM est accompagné
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>23/09/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>LES VALLEES BREUILLETOISES VTT (2EME EDITION)</Nom>
+      <Description>4EME TROPHY DU COMITE
+        Gymnase - Rue Des Prairies 91 Breuillet
+        De 07 h 30 à 09 h 00 - Clôture: 13 h 00
+        VTT : 20 / 33 / 50 km
+        Tarifs: L : 3,50 &amp;euro; / NL 5,50 &amp;euro; - 18 ans NL: 2,00 &amp;euro;
+        91 - 06657 - CYCLO CLUB BREUILLETOIS
+        HAMEL Pascal - 01.60.83.28.25 - hamel.pa@wanadoo.fr dimanche
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>30/09/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>VIRADES DE L'ESPOIR</Nom>
+      <Description>Espace j. racine face à gare 78 St Rémy-lès-Chevreuse
+        De 7h45 à 10h30 Clôture: 14h00
+        VTT : 15 / 25 / 40 / 60 Km
+        Tarifs: L: 6,00 &amp;euro;/ NL: 8,00 &amp;euro; -18 ans NL: Gratuit
+        91 - 00470 – ASCEA SACLAY - www.virades-chevreuse.fr
+        LYON François - 06.74.94.27.92 - françois.lyon@free.fr
+        Inscription = don Au profit de vaincre la mucoviscidose
+        Préinscription possible sur internet»
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>30/09/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>VIRADES DE L'ESPOIR</Nom>
+      <Description>Espace j. racine face à gare 78 St Rémy-lès-Chevreuse
+        De 7h45 à 10h30 Clôture: 14h00
+        Route: 35 / 60 / 100 Km
+        Tarifs: L: 6,00 &amp;euro;/ NL: 8,00 &amp;euro; -18ans NL: Gratuit
+        91 - 00470 – ASCEA SACLAY - www.virades-chevreuse.fr
+        CHEVALIER Michel - 01.34.85.17.59 michel43.chevalier@wanadoo.fr
+        Inscription = don Au profit de vaincre la mucoviscidose
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>07/10/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>RANDONNÉE VTT DE BEAUREGARD</Nom>
+      <Description>Parking du château de St Jean de Beauregard - 91 Saint Jean de Beauregard
+        De 8h00 à 9h30 Clôture:13h00
+        VTT: 24 / 36 / 55 Km
+        Tarifs: L: 4,00 &amp;euro;/NL: 7,00 &amp;euro; -18 ans NL: 4,00 &amp;euro;
+        91 – 01622 - CA ORSAY - http://sites.google.com/site/caocyclotourisme
+        DESCAMPS Gervais - 01.64.46.91.70 mgdescamps@orange.fr
+        La commune de Saint Jean de Beauregard est située à proximité du
+        centre commercial Ulis 2
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>07/10/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>RANDONNEE DES CHATAIGNES</Nom>
+      <Description>Gymnase Lino Ventura 91 Dourdan
+        De 07 h 30 à 10 h 00 - Clôture: 13 h 00
+        Route : 30 / 60 / 90 km
+        Tarifs: L : 4,00 &amp;euro; / NL 6,00 &amp;euro; - 18 ans NL: Gratuit
+        91 - 02681 - DOURDAN CYCLOTOURISME -
+        http://dourdancyclotourisme.free.fr
+        BROUARD Germain - 01.64.59.85.05- germain.brouard@wanadoo.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>14/10/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>LA RANDONNEE DU MOULIN DE VIRY</Nom>
+      <Description>5EME TROPHEE DU COMITE
+        Stade Eric Durand avenue de l’aqueduc 91 Viry-Chatillon (plateau)
+        De 7h30 à 9h30 - Clôture: 13h30
+        Route: 60 / 80 / 100 Km
+        Tarifs: L: 3,00 &amp;euro;/ NL: 5,00 &amp;euro; -18ans NL: Gratuit
+        91 - 02532 – CYCLO RANDONNEURS VIRY-CHATILLON -
+        http://crvc.ffct.org
+        PIRROVANI Claude - 01.60.15.57.39 - clopiro@wanadoo.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>14/10/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>LA GRANGEOISE</Nom>
+      <Description>Salle polyvalente 91 Les granges le roi
+        De 7h30 à 10h00 Clôture: 13h30
+        VTT: 20 / 30 / 35 / 50 / 65 Km
+        Tarifs: L: 4,00 &amp;euro;/ NL: 6,00 &amp;euro; -18 ans NL: 0 &amp;euro;
+        91 - 07349 - VELO CLUB GRANGEOIS - http://site.vcg.free.fr/vcg
+        CREIGNOU Patrick – 06.48.26.47.96 -cellae@wanadoo.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>21/10/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>COTEAUX ET VALLEES</Nom>
+      <Description>Place de l’Europe, stade Jesse Owens - 91 Chilly-Mazarin
+        De 8h00 à 9h00 - Clôture: 13h00
+        Route: 20 / 35 / 60 / 85 Km
+        Tarifs: L: 3,50 &amp;euro;/ NL: 5,50 &amp;euro; -18 ans NL: Gratuit
+        91 - 00805 - V C B S CHILLY MAZARIN - http://www.vcbs.org
+        MICHEL Guy - 06.26.05.40.34- michel-gblt@orange.fr
+        Cyclo-découverte de 20Km, départ à 10h
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>04/11/2012</Le>
+      <Categorie>ROUTE</Categorie>
+      <Nom>MASSY BREUILLET MASSY</Nom>
+      <Description>Avenue du noyer lambert (face à la piscine municipale) 91 Massy
+        De 8h30 à 9h30 Clôture: 14h30
+        Route: 30 / 70 Km
+        Tarifs: L: 3.50 &amp;euro;/ NL: 5.50 &amp;euro; -18 ans L: Gratuit / -18 ans NL: 3.50 &amp;euro;
+        91 - 02318 - VELO CLUB MASSY PALAISEAU - http://vcmp.free.fr
+        WILS Joel - 01.69.80.98.54 - joelwils@club-internet.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>18/11/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>LA MILLIACOISE</Nom>
+      <Description>Route de Moigny d 248 /ets darégal - 91 Milly la Forêt
+        De 8h00 à 10h00 - Clôture: 13h00
+        VTT: 15 / 25 / 35 / 55 Km
+        Tarifs: L: 4,00 &amp;euro;/ -18 ans L: 0&amp;euro;/ NL: 6,00 &amp;euro; / -18 ans NL: Gratuit
+        91 - 07309 -ETOILE CYCLISTE MILLACOISE - http://ec.milliacoise.free.fr
+        DRUESNE Christelle - 01.64.98.87.69 - druesne.chris@free.fr
+        Jet d’eau pour lavage vélo à dispo
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>25/11/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>TRANS MONTGERONNAISE</Nom>
+      <Description>Gymnase Du Cosec Av Charles De Gaulle 91 MONTGERON
+        De 07 h 30 à 10 h 00 Clôture: 13 h 00
+        VTT : 15 / 30 / 55 km
+        Tarifs : L : 4,00 &amp;euro; / NL: 6,00 &amp;euro; - 18 ans NL: 1,00 &amp;euro;
+        91 - 1921 – AMICALE CYCLO SENART - http://acs.cyclo.club.free.fr
+        VAZQUEZ Ivan - 01.69.42.65.92 - ivazquezivan@orange.fr
+      </Description>
+    </Evenement>
+    <Evenement>
+      <Le>02/12/2012</Le>
+      <Categorie>VTT</Categorie>
+      <Nom>LA GÂTINAISE</Nom>
+      <Description>Salle polyvalente d’Oncy - 91 Oncy sur Ecole
+        De 08h00 à 10h30 - Clôture: 13h30
+        VTT : 16 / 25 / 35 / 45 / 55 Km
+        Tarifs: L: 4,00 &amp;euro;/ NL: 6,00 &amp;euro; -18 ans NL: 6,00 &amp;euro;
+        91 - 06485 - ONCY NOISY CYCLO CLUB - http://www.chez.com/oncc
+        BOUCHER Patrick - 06.76.75.41.54 - oncc.91@gmail.com
+        COMITE DEPARTEMENTAL DE CYCLOTOURISME DE L'ESSONNE
+        Place Raymond Gombault 91540 ORMOY
+        Tél : 01.64.57.11.81 - Email : cyclo91@sfr.fr
+        Site Web : http://cyclotourisme91.free.fr/
+      </Description>
+    </Evenement>
+  </Programme_2012>
+</Evenements>

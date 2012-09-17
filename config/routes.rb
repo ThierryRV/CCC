@@ -8,6 +8,9 @@ Ccc::Application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
+  resources :circuits, only: [:index, :show, :edit, :create, :destroy]
+  resources :programmations, only: [:index, :show, :edit, :create, :destroy]
+  resources :evenements, only: [:index, :show, :edit, :create, :destroy]
 
   root to: 'static_pages#home'
 

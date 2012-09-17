@@ -1,0 +1,125 @@
+<Programmations>
+  <Programmation>
+    <Le>07/10/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>64 B</Programme_nom>
+    <Distance>93</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>Sud : Milly la Forêt</Observations>
+  </Programmation>
+  <Programmation>
+    <Le>07/10/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>48 A</Programme_nom>
+    <Distance>78</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>Sud/Est : Arbonne</Observations>
+  </Programmation>
+  <Programmation>
+    <Le>14/10/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RANDONNEE DU MOULIN DE VIRY</Programme_nom>
+    <Distance>100</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 5
+      Départ sur place
+      Stade Eric Durand Avenue de l’Aqueduc
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>14/10/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RANDONNEE DU MOULIN DE VIRY</Programme_nom>
+    <Distance>80</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>
+      Trophée N° 5
+      Départ sur place
+      Stade Eric Durand Avenue de l’Aqueduc
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>14/10/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RANDONNEE DU MOULIN DE VIRY</Programme_nom>
+    <Distance>60</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 5
+      Départ sur place
+      Stade Eric Durand Avenue de l’Aqueduc
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>21/10/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>COTEAUX ET VALLEES</Programme_nom>
+    <Distance>85</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Stade Jesse Owens
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>21/10/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>COTEAUX ET VALLEES</Programme_nom>
+    <Distance>60</Distance>
+    <Heure_de_départ>08:45</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Stade Jesse Owens
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>21/10/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>COTEAUX ET VALLEES</Programme_nom>
+    <Distance>35</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Stade Jesse Owens
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>28/10/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>61 A</Programme_nom>
+    <Distance>89</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>
+      Attention : changement d’heure
+      Sud/Est : Achères la forêt
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>28/10/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>45 B</Programme_nom>
+    <Distance>77</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>
+      Attention : changement d’heure
+      Sud/ouest : Villeconnin
+    </Observations>
+  </Programmation>
+</Programmations>

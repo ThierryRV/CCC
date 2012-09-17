@@ -1,0 +1,7 @@
+<%= provide(:title, 'Tous les rendez-vous du CCC') %>
+<h1>Tous les rendez-vous du CCC</h1>
+<%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>
+<ul class="programmations">
+  <%= render @programmations %>
+</ul>
+<%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>

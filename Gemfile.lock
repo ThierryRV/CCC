@@ -210,6 +210,7 @@ DEPENDENCIES
   guard-spork (= 0.3.2)
   jquery-rails (= 2.0.0)
   mysql2 (~> 0.3.11)
+  nokogiri (~> 1.5.5)
   rails (= 3.2.6)
   rb-fsevent (= 0.4.3.1)
   rspec-rails (= 2.8.1)

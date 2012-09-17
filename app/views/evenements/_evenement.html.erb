@@ -1,0 +1,18 @@
+<li class="evenements">
+  <ul class="evenement">
+    <%= link_to(evenement) do %>
+        <% if programmation.le.blank? %>
+            <li class="evenement_le">Permanente</li>
+        <% else %>
+            <li class="evenement_le"><%= evenement.le.strftime("%d/%m/%Y") %></li>
+        <% end %>
+        <li class="evenement_categorie"><%= evenement.categorie %></li>
+        <li class="evenement_nom"><%= evenement.nom %></li>
+    <% end %>
+    <li class="suppression">
+      <% if current_user.admin? %>
+          <%= link_to "Supprimer", evenement, method: :delete, data: {confirm: "Êtes vous sûr ?"} %>
+      <% end %>
+    </li>
+  </ul>
+</li>

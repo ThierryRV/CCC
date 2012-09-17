@@ -1,0 +1,20 @@
+<li class="programmations">
+  <ul class="programmation">
+    <%= link_to(programmation) do %>
+        <li class="programmation_le_date"><%= programmation.le.strftime("%d/%m/%Y") %></li>
+        <li class="programmation_le_heure"><%= programmation.le.strftime("%T") %></li>
+        <li class="programmation_groupe"><%= programmation.groupe %></li>
+    <% end %>
+    <%= link_to(programmation.programme) do %>
+        <li class="programmation_nom"><%= programmation.programme.nom %></li>
+    <% end %>
+    <li class="suppression">
+      <% if current_user.admin? %>
+          <%= link_to "Supprimer", programmation, method: :delete, data: {confirm: "Êtes vous sûr ?"} %>
+      <% end %>
+    </li>
+  </ul>
+  <ul class="programmation">
+    <li class="programmation_observations"><%= programmation.observations %></li>
+  </ul>
+</li>

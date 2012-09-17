@@ -1,0 +1,63 @@
+<% provide(:title, @circuit.description) %>
+<h1>Circuit C.C.C. <%= @circuit.description %></h1>
+<div class="row">
+  <div class="span2 center">
+    Identifiant
+  </div>
+  <div class="span2 center">
+    Nom
+  </div>
+  <div class="span2 center">
+    Direction
+  </div>
+  <div class="span2 center">
+    Longueur
+  </div>
+  <div class="span2 center">
+    Difficulté
+  </div>
+  <div class="span2 center">
+    Dénivelé
+  </div>
+</div>
+<div class="row">
+  <div class="span2 center">
+    <%= @circuit.id %>
+  </div>
+  <div class="span2 center">
+    <%= @circuit.description %>
+  </div>
+  <div class="span2 center">
+    <%= @circuit.direction %>
+  </div>
+  <div class="span2 center">
+    <%= @circuit.longueur.to_s + ' km'%>
+  </div>
+  <div class="span2 center">
+    <%= @circuit.difficulte %>
+  </div>
+  <div class="span2 center">
+    <%= @circuit.denivele.to_s + ' m'%>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="span12">
+    <h1>Parcours</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <% @circuit.indications.each do  |i| %>
+    <%= i.nom + ' - ' %>
+    <% end %>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="span12 center">
+    <h1>Carte</h1>
+    <script  type="text/javascript" src="<%= openrunner_map_for(@circuit.id_openrunner) %>" >
+    </script>
+  </div>
+</div>

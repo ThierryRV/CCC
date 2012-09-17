@@ -8,6 +8,9 @@
           <li><%= link_to "Aide", help_path %></li>
           <% if signed_in? %>
               <li><%= link_to "Cyclos", users_path %></li>
+              <li><%= link_to "Rendez-vous", programmations_path %></li>
+              <li><%= link_to "Evenements", evenements_path %></li>
+              <li><%= link_to "Circuits", circuits_path %></li>
               <li id="fat-menu" class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   Compte <b class="caret"></b>

@@ -1,0 +1,689 @@
+<Programmations>
+  <Programmation>
+    <Le>26/02/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE DES RETROUVAILLES</Programme_nom>
+    <Distance>60</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Départ du local
+      Place R.Gombault
+      Tarif : 2 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>26/02/2012</Le>
+    <Groupe>C & P .P.</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE DES RETROUVAILLES</Programme_nom>
+    <Distance>40</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>
+      Départ du local
+      Place R.Gombault
+      Tarif : 2 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>11/03/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RALLYE DU DRAGON (SOUVENIR Ph. ILDEPHONSE)</Programme_nom>
+    <Distance>110</Distance>
+    <Heure_de_départ>07:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase des Mares Yvon
+      Place Léonard de Vinci
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>11/03/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RALLYE DU DRAGON (SOUVENIR Ph. ILDEPHONSE)</Programme_nom>
+    <Distance>70</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase des Mares Yvon
+      Place Léonard de Vinci
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>25/03/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>PAR MONTS ET PAR VAUX</Programme_nom>
+    <Distance>90</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 1
+      Départ sur place
+      Attention changement d’heure (+ 1 heure)
+      Salle des fêtes
+      Inscription prise en compte par le club.
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>25/03/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>PAR MONTS ET PAR VAUX</Programme_nom>
+    <Distance>60</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>
+      Trophée N° 1
+      Départ sur place
+      Attention changement d’heure (+ 1 heure)
+      Salle des fêtes
+      Inscription prise en compte par le club.
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>25/03/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>PAR MONTS ET PAR VAUX</Programme_nom>
+    <Distance>30</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 1
+      Départ sur place
+      Attention changement d’heure (+ 1 heure)
+      Salle des fêtes
+      Inscription prise en compte par le club.
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/04/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RISSOISE</Programme_nom>
+    <Distance>100</Distance>
+    <Heure_de_départ>07:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase Jesse Owens
+      Rue Rory Gallagher
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/04/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RISSOISE</Programme_nom>
+    <Distance>85</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase Jesse Owens
+      Rue Rory Gallagher
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/04/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RISSOISE</Programme_nom>
+    <Distance>65</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase Jesse Owens
+      Rue Rory Gallagher
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/04/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RISSOISE</Programme_nom>
+    <Distance>35</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase Jesse Owens
+      Rue Rory Gallagher
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>08/04/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE DE LA TOUR</Programme_nom>
+    <Distance>110</Distance>
+    <Heure_de_départ>07:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Cosom route de Carcassonne
+      Prix : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>08/04/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE DE LA TOUR</Programme_nom>
+    <Distance>70</Distance>
+    <Heure_de_départ>07:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Cosom route de Carcassonne
+      Prix : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>28/04/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>MENNECY - MONTARGIS – MENNECY</Programme_nom>
+    <Distance>200</Distance>
+    <Heure_de_départ>06:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parc de villeroy
+      200 km 14€ repas compris
+      Pré-inscription av le 14/04 auprès de Mr Cochez
+      3.50€ pris en charge par le club
+      Pas de majoration pour le 200 km si inscription sur place
+      150 km : 9 €
+      100 km : 5 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>28/04/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>MENNECY - MONTARGIS – MENNECY</Programme_nom>
+    <Distance>150</Distance>
+    <Heure_de_départ>07:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parc de villeroy
+      200 km 14€ repas compris
+      Pré-inscription av le 14/04 auprès de Mr Cochez
+      3.50€ pris en charge par le club
+      Pas de majoration pour le 200 km si inscription sur place
+      150 km : 9 €
+      100 km : 5 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>28/04/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>MENNECY - MONTARGIS – MENNECY</Programme_nom>
+    <Distance>100</Distance>
+    <Heure_de_départ>07:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parc de villeroy
+      200 km 14€ repas compris
+      Pré-inscription av le 14/04 auprès de Mr Cochez
+      3.50€ pris en charge par le club
+      Pas de majoration pour le 200 km si inscription sur place
+      150 km : 9 €
+      100 km : 5 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE LES TROIS VALLEES</Programme_nom>
+    <Distance>100</Distance>
+    <Heure_de_départ>07:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Salle des associations à Méréville (91)
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/05/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE LES TROIS VALLEES</Programme_nom>
+    <Distance>75</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Salle des associations à Méréville (91)
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>05/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>ST ARNOULT / MAILLEBOIS / ST ARNOULT</Programme_nom>
+    <Distance>213</Distance>
+    <Heure_de_départ>06:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Tarif:6 € + 3 € parcours de 213 km avec Sandwich.
+      Pré-Inscription av le 22/04 auprès de P. Cochez
+      3.50€ pris en charge par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>05/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>ST ARNOULT / MAILLEBOIS / ST ARNOULT</Programme_nom>
+    <Distance>127</Distance>
+    <Heure_de_départ>07:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Tarif:6 € + 3 € parcours de 213 km avec Sandwich.
+      Pré-Inscription av le 22/04 auprès de P. Cochez
+      3.50€ pris en charge par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>06/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE SOUVENIR AUGUSTE LEGOVIC</Programme_nom>
+    <Distance>120</Distance>
+    <Heure_de_départ>07:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Stade Municipale du Coudray
+      Tarif 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>06/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE SOUVENIR AUGUSTE LEGOVIC</Programme_nom>
+    <Distance>90</Distance>
+    <Heure_de_départ>07:45</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Stade Municipale du Coudray
+      Tarif 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>06/05/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE SOUVENIR AUGUSTE LEGOVIC</Programme_nom>
+    <Distance>60</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Stade Municipale du Coudray
+      Tarif 3.50 €
+    </Observations>
+  <Programmation>
+    <Le>06/05/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE SOUVENIR AUGUSTE LEGOVIC</Programme_nom>
+    <Distance>35</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Stade Municipale du Coudray
+      Tarif 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>13/05/2012</Le>
+    <Groupe>RS & R & C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>TOUR DE L’ESSONNE</Programme_nom>
+    <Distance>163</Distance>
+    <Heure_de_départ>07:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Salle Anne Franck
+      Tarif : 7 €
+      en-Pré-inscription av le 30/04 auprès de P.Cochez
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>13/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA VILLABEENNE</Programme_nom>
+    <Distance>106</Distance>
+    <Heure_de_départ>07:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase Paul Poisson
+      Rue du Chemin Vert
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>13/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA VILLABEENNE</Programme_nom>
+    <Distance>92</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase Paul Poisson
+      Rue du Chemin Vert
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>13/05/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA VILLABEENNE</Programme_nom>
+    <Distance>74</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase Paul Poisson
+      Rue du Chemin Vert
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>13/05/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA VILLABEENNE</Programme_nom>
+    <Distance>42</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Gymnase Paul Poisson
+      Rue du Chemin Vert
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>20/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RALLYE DES CHATEAUX</Programme_nom>
+    <Distance>110</Distance>
+    <Heure_de_départ>07:30</Heure_de_départ>
+    <Observations>
+      Trophée N° 2
+      Départ sur place
+      Daunettes
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>20/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RALLYE DES CHATEAUX</Programme_nom>
+    <Distance>80</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 2
+      Départ sur place
+      Daunettes
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>20/05/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RALLYE DES CHATEAUX</Programme_nom>
+    <Distance>50</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 2
+      Départ sur place
+      Daunettes
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>26/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA SAVINIENNE</Programme_nom>
+    <Distance>200</Distance>
+    <Heure_de_départ>06:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parc des sports J.Moulin
+      Tarif : 13 € en Préinscription avant le 11/05 auprès de P.Cochez
+      3.50€ pris en compte par le club
+      Tarif : 3.50€
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>26/05/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA SAVINIENNE</Programme_nom>
+    <Distance>103</Distance>
+    <Heure_de_départ>07:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parc des sports J.Moulin
+      Tarif : 13 € en Préinscription avant le 11/05 auprès de P.Cochez
+      3.50€ pris en compte par le club
+      Tarif : 3.50€
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>10/06/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>109EME ANNIVERSAIRE DU 1ER DEPART DU TOUR DE FRANCE</Programme_nom>
+    <Distance>135</Distance>
+    <Heure_de_départ>07:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parking des Cycles Galland
+      3 rue Gustave Eiffel
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>10/06/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>109EME ANNIVERSAIRE DU 1ER DEPART DU TOUR DE FRANCE</Programme_nom>
+    <Distance>115</Distance>
+    <Heure_de_départ>07:45</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parking des Cycles Galland
+      3 rue Gustave Eiffel
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>10/06/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>109EME ANNIVERSAIRE DU 1ER DEPART DU TOUR DE FRANCE</Programme_nom>
+    <Distance>85</Distance>
+    <Heure_de_départ>08:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parking des Cycles Galland
+      3 rue Gustave Eiffel
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>10/06/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>109EME ANNIVERSAIRE DU 1ER DEPART DU TOUR DE FRANCE</Programme_nom>
+    <Distance>55</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parking des Cycles Galland
+      3 rue Gustave Eiffel
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>10/06/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>109EME ANNIVERSAIRE DU 1ER DEPART DU TOUR DE FRANCE</Programme_nom>
+    <Distance>30</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Parking des Cycles Galland
+      3 rue Gustave Eiffel
+      Tarif : 3.50 €
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>24/06/2012</Le>
+    <Groupe>RS & R & C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Pique-nique</Programme_nom>
+    <Distance>30</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Pique-nique à Cernay la Ville à la ferme du bout des Près
+      9h00 Le parcours est en pièce jointe
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/07/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA BRUNOYENNE</Programme_nom>
+    <Distance>120</Distance>
+    <Heure_de_départ>07:30</Heure_de_départ>
+    <Observations>
+      Trophée N° 3
+      Départ sur place
+      Stade 91 à Brunoy
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/07/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA BRUNOYENNE</Programme_nom>
+    <Distance>85</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 3
+      Départ sur place
+      Stade 91 à Brunoy
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/07/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA BRUNOYENNE</Programme_nom>
+    <Distance>50</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 3
+      Départ sur place
+      Stade 91 à Brunoy
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>02/09/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA SAINTRYENNE</Programme_nom>
+    <Distance>110</Distance>
+    <Heure_de_départ>07:30</Heure_de_départ>
+    <Observations>
+      Trophée N° 4
+      Départ sur place
+      Salle Corot
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>02/09/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA SAINTRYENNE</Programme_nom>
+    <Distance>85</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 4
+      Départ sur place
+      Salle Corot
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>02/09/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA SAINTRYENNE</Programme_nom>
+    <Distance>50</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Trophée N° 4
+      Départ sur place
+      Salle Corot
+      Inscription prise en compte par le club
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>30/09/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>VIRADES DE L'ESPOIR</Programme_nom>
+    <Distance>110</Distance>
+    <Heure_de_départ>07:30</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Espace Jean Racine
+      Tarif : 6 € sous forme de don à la mucoviscidose
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>30/09/2012</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>VIRADES DE L'ESPOIR</Programme_nom>
+    <Distance>65</Distance>
+    <Heure_de_départ>08:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Espace Jean Racine
+      Tarif : 6 € sous forme de don à la mucoviscidose
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>30/09/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>VIRADES DE L'ESPOIR</Programme_nom>
+    <Distance>37</Distance>
+    <Heure_de_départ>09:00</Heure_de_départ>
+    <Observations>
+      Départ sur place
+      Espace Jean Racine
+      Tarif : 6 € sous forme de don à la mucoviscidose
+    </Observations>
+  </Programmation>
+</Programmations>

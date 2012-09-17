@@ -1,0 +1,7 @@
+<%= provide(:title, 'Tous les circuits de C.C.C.') %>
+<h1>Tous les circuits de Club Cyclo de Courcouronnes</h1>
+<%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>
+<ul class="circuits">
+  <%= render @circuits %>
+</ul>
+<%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>

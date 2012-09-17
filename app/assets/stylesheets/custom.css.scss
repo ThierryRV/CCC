@@ -200,7 +200,6 @@ input, textarea, select, .uneditable-input {
  }
 
 /* users index */
-
 .users {
   list-style: none;
   margin: 0;
@@ -241,5 +240,99 @@ aside {
   textarea {
     height: 100px;
     margin-bottom: 5px;
+  }
+}
+
+/* circuits index */
+.circuits {
+  list-style: none;
+  margin: 0;
+  li.circuits {
+    overflow: auto;
+    padding: 2px 0;
+/*
+    border-top: 1px solid $grayLighter;
+    &:last-child {
+      border-bottom: 1px solid $grayLighter;
+    }
+*/
+  }
+}
+
+/* circuits index */
+.circuit {
+  list-style: none;
+  margin: 0;
+  li.circuit {
+    float: left;
+    display: inline;
+    width: 50px;
+    /*border: 1px solid #e8e8e8;*/
+  }
+  li.suppression a{
+    float: left;
+    display: inline;
+    width: 70px;
+    /*color: red;*/
+    /*border: 1px solid #e8e8e8;*/
+  }
+  li.suppression a:hover {
+    text-decoration: none;
+    color: red;
+  }
+}
+
+.carte {
+
+}
+
+/* evenements index */
+.evenements {
+  list-style: none;
+  margin: 0;
+  li.evenements {
+    overflow: auto;
+    padding: 2px 0;
+/*
+    border-top: 1px solid $grayLighter;
+    &:last-child {
+      border-bottom: 1px solid $grayLighter;
+    }
+*/
+  }
+}
+
+/* evenements index */
+.evenement {
+  list-style: none;
+  margin: 0;
+  li.evenement_le {
+    float: left;
+    display: inline;
+    width: 100px;
+    border: 1px solid #e8e8e8;
+  }
+  li.evenement_categorie {
+    float: left;
+    display: inline;
+    width: 60px;
+    border: 1px solid #e8e8e8;
+  }
+  li.evenement_nom {
+    float: left;
+    display: inline;
+    width: 600px;
+    border: 1px solid #e8e8e8;
+  }
+  li.suppression a{
+    float: left;
+    display: inline;
+    width: 70px;
+    /*color: red;*/
+    border: 1px solid #e8e8e8;
+  }
+  li.suppression a:hover {
+    text-decoration: none;
+    color: red;
   }
 }

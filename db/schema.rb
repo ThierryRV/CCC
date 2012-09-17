@@ -11,7 +11,34 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120613090106) do
+ActiveRecord::Schema.define(:version => 20120913163740) do
+
+  create_table "circuits", :force => true do |t|
+    t.string   "description"
+    t.string   "direction"
+    t.integer  "longueur"
+    t.string   "difficulte"
+    t.integer  "denivele"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.string   "id_openrunner"
+  end
+
+  create_table "evenements", :force => true do |t|
+    t.string   "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.datetime "le"
+    t.string   "categorie"
+    t.string   "nom"
+    t.string   "type"
+  end
+
+  create_table "indications", :force => true do |t|
+    t.string   "nom"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "microposts", :force => true do |t|
     t.string   "content"
@@ -21,6 +48,24 @@ ActiveRecord::Schema.define(:version => 20120613090106) do
   end
 
   add_index "microposts", ["user_id", "created_at"], :name => "index_microposts_on_user_id_and_created_at"
+
+  create_table "programmations", :force => true do |t|
+    t.string   "groupe"
+    t.datetime "le"
+    t.integer  "programme_id"
+    t.string   "programme_type"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+    t.string   "observations"
+  end
+
+  create_table "rel_circuit_indications", :force => true do |t|
+    t.integer  "rang"
+    t.integer  "circuit_id"
+    t.integer  "indication_id"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
   create_table "relationships", :force => true do |t|
     t.integer  "follower_id"

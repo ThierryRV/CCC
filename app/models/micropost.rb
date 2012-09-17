@@ -2,12 +2,13 @@
 #
 # Table name: microposts
 #
-#  id         :integer         not null, primary key
+#  id         :integer(4)      not null, primary key
 #  content    :string(255)
-#  user_id    :integer
+#  user_id    :integer(4)
 #  created_at :datetime        not null
 #  updated_at :datetime        not null
 #
+
 class Micropost < ActiveRecord::Base
   attr_accessible :content
   belongs_to :user
@@ -30,15 +31,3 @@ class Micropost < ActiveRecord::Base
             {user_id: user})
     end
 end
-
-# == Schema Information
-#
-# Table name: microposts
-#
-#  id         :integer         not null, primary key
-#  content    :string(255)
-#  user_id    :integer
-#  created_at :datetime        not null
-#  updated_at :datetime        not null
-#
-

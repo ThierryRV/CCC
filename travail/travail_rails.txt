@@ -1,0 +1,20 @@
+<Evenement>
+  <Date>04/11/2012</Date>
+  <Categorie>ROUTE</Categorie>
+  <Titre>MASSY BREUILLET MASSY</Titre>
+  <Description>Avenue du noyer lambert (face à la piscine municipale) 91 Massy
+    De 8h30 à 9h30 Clôture: 14h30
+    Route: 30 / 70 Km
+    Tarifs: L: 3.50 &amp;euro;/ NL: 5.50 &amp;euro; -18 ans L: Gratuit / -18 ans NL: 3.50 &amp;euro;
+    91 - 02318 - VELO CLUB MASSY PALAISEAU - http://vcmp.free.fr
+    WILS Joel - 01.69.80.98.54 - joelwils@club-internet.fr
+  </Description>
+
+
+rails generate migration add_le_categorie_nom_to_evenements le:datetime categorie:string nom:string
+
+bundle exec annotate --position before
+MarcelRV_22
+
+rails generate migration add_observations_to_evenements observations:string
+rake db:migrate
