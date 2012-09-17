@@ -1,7 +1,7 @@
 <li class="evenements">
   <ul class="evenement">
     <%= link_to(evenement) do %>
-        <% if programmation.le.blank? %>
+        <% if evenement.le.blank? %>
             <li class="evenement_le">Permanente</li>
         <% else %>
             <li class="evenement_le"><%= evenement.le.strftime("%d/%m/%Y") %></li>
