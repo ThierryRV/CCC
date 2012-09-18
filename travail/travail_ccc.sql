@@ -1,3 +1,4 @@
+INSERT INTO ccc_development.evenements (id, description, created_at, updated_at, le, categorie, nom, type) VALUES (64, 'A renseigner.', '2012-09-12 23:32:00', '2012-09-12 23:32:00', '2012-05-05 00:00:00', 'ROUTE', 'ST ARNOULT / MAILLEBOIS / ST ARNOULT', 'Programme 2012');
 use ccc_development;
 
 TRUNCATE TABLE ccc_development.circuits;
@@ -76,6 +77,8 @@ UPDATE programmations SET groupe='RS & R', le='2012-07-08 08:00:00' where id=491
  commit;
  
  select * from programmations where le >= '2012-01-01' order by le desc;
+ 
+ delete from ccc_development.programmations where le >= '2012-10-01';
  
  update circuits set denivele=0 where denivele is null;
  

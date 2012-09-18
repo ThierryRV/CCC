@@ -133,7 +133,10 @@ describe User do
   end
 
   describe "with admin attribute set to 'true'" do
-    before { @user.toggle!(:admin) }
+    before do
+      @user.toggle(:admin)
+      @user.save
+    end
 
     it { should be_admin }
   end
