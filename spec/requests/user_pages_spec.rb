@@ -138,7 +138,7 @@ describe "User pages" do
 
     describe "page" do
       it { should have_selector('h1',    text: "Update your profile") }
-      it { should have_selector('title', text: "Edit user") }
+      it { should have_selector('title', text: "Modification du profil cyclo.") }
       it { should have_link('change', href: 'http://gravatar.com/emails') }
     end
 
@@ -176,7 +176,7 @@ describe "User pages" do
       visit users_path
     end
 
-    it { should have_selector('title', text: 'All users') }
+    it { should have_selector('title', text: 'Liste de tous les cyclos') }
 
     describe "pagination" do
       before(:all) { 30.times { FactoryGirl.create(:user) } }
@@ -221,8 +221,8 @@ describe "User pages" do
         visit following_user_path(user)
       end
 
-      it { should have_selector('title', text: full_title('Following')) }
-      it { should have_selector('h3', text: 'Following') }
+      it { should have_selector('title', text: full_title('Vous suivez')) }
+      it { should have_selector('h3', text: 'Vous suivez') }
       it { should have_link(other_user.name, href: user_path(other_user)) }
 
     end
@@ -232,8 +232,8 @@ describe "User pages" do
         sign_in other_user
         visit followers_user_path(other_user)
       end
-      it { should have_selector('title', text: full_title('Followers')) }
-      it { should have_selector('h3', text: 'Followers') }
+      it { should have_selector('title', text: full_title('Ils vous suivent')) }
+      it { should have_selector('h3', text: 'Ils vous suivent') }
       it { should have_link(user.name, href: user_path(user)) }
     end
   end

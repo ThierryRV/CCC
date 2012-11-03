@@ -1,3 +1,5 @@
+# encoding: UTF-8
+#
 class MicropostsController < ApplicationController
   before_filter :signed_in_user, only: [:create, :destroy]
   before_filter :correct_user, only: :destroy
@@ -8,7 +10,7 @@ class MicropostsController < ApplicationController
   def create
     @micropost = current_user.microposts.build(params[:micropost])
     if @micropost.save
-      flash[:success] = "Micropost created!"
+      flash[:success] = "Message créé."
       redirect_to root_path
     else
       @feed_items = []

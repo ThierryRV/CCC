@@ -1,7 +1,16 @@
 <%= provide(:title, 'Tous les circuits de C.C.C.') %>
 <h1>Tous les circuits de Club Cyclo de Courcouronnes</h1>
+
+<% if !current_user.nil? && current_user.admin? %>
+    <h3><%= link_to "Créer un circuit", new_circuit_path %></h3>
+<% end %>
+
 <%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>
-<ul class="circuits">
+<div class="row">
   <%= render @circuits %>
-</ul>
+</div>
 <%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>
+
+<% if !current_user.nil? && current_user.admin? %>
+    <h3><%= link_to "Créer un circuit", new_circuit_path %></h3>
+<% end %>

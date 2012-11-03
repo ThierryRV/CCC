@@ -1,2 +1,27 @@
-<h1>Circuits#edit</h1>
-<p>Find me in app/views/circuits/edit.html.erb</p>
+<% provide(:title, "Edition du circuit") %>
+<h1>Edition du circuit</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+  <%= form_for(@circuit) do |f| %>
+        <%= render 'shared/error_messages', object: f.object %>
+
+      <%= f.label :description, "Nom" %>
+      <%= f.text_field :description %>
+
+      <%= f.label :direction, "Direction" %>
+      <%= f.text_field :direction %>
+
+        <%= f.label :longueur, "Longueur" %>
+       <%= f.text_field :longueur %>
+
+       <%= f.label :denivele, "Dénivelé" %>
+       <%= f.text_field :denivele %>
+
+        <%= f.label :difficulte, "Difficulté" %>
+        <%= f.text_field :difficulte %>
+
+      <%= f.submit "Enregistrer les modifications", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>

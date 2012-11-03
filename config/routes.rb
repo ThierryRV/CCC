@@ -1,4 +1,8 @@
 Ccc::Application.routes.draw do
+  mount ImperaviRails::Engine => "/imperavi"
+
+  resource :wysihat_files
+
   resources :users do
     member do
       get :following, :followers
@@ -8,7 +12,7 @@ Ccc::Application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
-  resources :circuits, only: [:index, :show, :edit, :create, :destroy]
+  resources :circuits, only: [:index, :show, :edit, :create, :destroy, :update, :new]
   resources :programmations, only: [:index, :show, :edit, :create, :destroy]
   resources :evenements, only: [:index, :show, :edit, :create, :destroy]
 

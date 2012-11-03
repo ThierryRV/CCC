@@ -17,7 +17,7 @@ namespace :programme_ccc do
       nom = programme.at_css('Programme_nom').content
       distance = programme.at_css('Distance').content
       groupe = programme.at_css('Groupe').content
-      observations = programme.at_css('Observations').content
+      observations = programme.at_css('Observations').content.strip
       leBrute = programme.at_css('Le').content.to_s.strip
       leFormat = "#{leBrute[6..9]}-#{leBrute[3..4]}-#{leBrute[0..1]}"
       heureBrute = programme.at_css('Heure_de_départ').content.to_s.strip

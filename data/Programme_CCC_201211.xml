@@ -1,0 +1,116 @@
+<Programmations>
+  <Programmation>
+    <Le>01/11/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>34 B</Programme_nom>
+    <Distance>70</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      La Toussaint
+      **Sud/Ouest** : Etrechy
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>01/11/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>30 B</Programme_nom>
+    <Distance>66</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      La Toussaint
+      **Sud** : Fleury en Bière
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>04/11/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>44 A</Programme_nom>
+    <Distance>75</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud** : Arbonne
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>04/11/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>25 A</Programme_nom>
+    <Distance>65</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest** : Villeconin
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>11/11/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>39 A</Programme_nom>
+    <Distance>74</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      Armistice
+      **Sud/Ouest** :Valpuiseaux
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>11/11/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>23 A</Programme_nom>
+    <Distance>63</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      Armistice
+      **Sud** : Mesnil Racoin
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>18/11/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>33 B</Programme_nom>
+    <Distance>70</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud** : Prunay s/ Essonne
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>18/11/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>22 B</Programme_nom>
+    <Distance>60</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud** : Perthes
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>25/11/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>37 B</Programme_nom>
+    <Distance>72</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest** : Mesnil Racoin
+    </Observations>
+  </Programmation>
+  <Programmation>
+    <Le>25/11/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>24 B</Programme_nom>
+    <Distance>63</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest** : Bouville
+    </Observations>
+  </Programmation>
+</Programmations>
