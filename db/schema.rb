@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120913163740) do
+ActiveRecord::Schema.define(:version => 20121026085914) do
 
   create_table "circuits", :force => true do |t|
     t.string   "description"
@@ -25,13 +25,13 @@ ActiveRecord::Schema.define(:version => 20120913163740) do
   end
 
   create_table "evenements", :force => true do |t|
-    t.string   "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "description", :limit => 1024
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
     t.datetime "le"
     t.string   "categorie"
     t.string   "nom"
-    t.string   "type"
+    t.string   "genre"
   end
 
   create_table "indications", :force => true do |t|
@@ -48,6 +48,39 @@ ActiveRecord::Schema.define(:version => 20120913163740) do
   end
 
   add_index "microposts", ["user_id", "created_at"], :name => "index_microposts_on_user_id_and_created_at"
+
+  create_table "old_microposts", :force => true do |t|
+    t.string   "content"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "old_microposts", ["user_id", "created_at"], :name => "index_microposts_on_user_id_and_created_at"
+
+  create_table "old_relationships", :force => true do |t|
+    t.integer  "follower_id"
+    t.integer  "followed_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "old_relationships", ["followed_id"], :name => "index_relationships_on_followed_id"
+  add_index "old_relationships", ["follower_id", "followed_id"], :name => "index_relationships_on_follower_id_and_followed_id", :unique => true
+  add_index "old_relationships", ["follower_id"], :name => "index_relationships_on_follower_id"
+
+  create_table "old_users", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
+    t.string   "password_digest"
+    t.string   "remember_token"
+    t.boolean  "admin",           :default => false
+  end
+
+  add_index "old_users", ["email"], :name => "index_users_on_email", :unique => true
+  add_index "old_users", ["remember_token"], :name => "index_users_on_remember_token"
 
   create_table "programmations", :force => true do |t|
     t.string   "groupe"
@@ -86,9 +119,13 @@ ActiveRecord::Schema.define(:version => 20120913163740) do
     t.string   "password_digest"
     t.string   "remember_token"
     t.boolean  "admin",           :default => false
+    t.string   "emailccc"
+    t.string   "licence"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
+  add_index "users", ["emailccc"], :name => "index_users_on_emailccc", :unique => true
+  add_index "users", ["licence"], :name => "index_users_on_licence", :unique => true
   add_index "users", ["remember_token"], :name => "index_users_on_remember_token"
 
 end

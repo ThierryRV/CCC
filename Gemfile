@@ -9,6 +9,8 @@ gem 'bootstrap-will_paginate', '0.0.5'
 gem "mysql2", "~> 0.3.11"
 gem "capistrano", "~> 2.12.0"
 gem "nokogiri", "~> 1.5.5"
+gem 'redcarpet'
+gem 'imperavi-rails', '0.0.12.beta'
 
 group :development do
   gem 'sqlite3', '1.3.5'

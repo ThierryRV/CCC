@@ -1,16 +1,16 @@
-<li class="circuits">
-  <ul class="circuit">
-    <%= link_to(circuit) do %>
-        <li class="circuit"><%= circuit.description %></li>
-        <li class="circuit"><%= circuit.direction %></li>
-        <li class="circuit"><%= circuit.longueur.to_s + ' km' %></li>
-        <li class="circuit"><%= circuit.difficulte %></li>
-        <li class="circuit"><%= circuit.denivele.to_s + ' m' %></li>
-    <% end %>
-    <li class="suppression">
-      <% if current_user.admin? %>
-          <%= link_to "Supprimer", circuit, method: :delete, data: {confirm: "Êtes vous sûr ?"} %>
-      <% end %>
-    </li>
-  </ul>
-</li>
+<div>
+  <%= link_to(circuit) do %>
+      <div class="span1"><%= circuit.description %></div>
+      <div class="span1"><%= circuit.direction %></div>
+      <div class="span1"><%= circuit.longueur.to_s + ' km' %></div>
+      <div class="span1"><%= circuit.difficulte %></div>
+      <div class="span1"><%= circuit.denivele.to_s + ' m' %></div>
+  <% end %>
+</div>
+<% if !current_user.nil? && current_user.admin? %>
+    <div class="span1 editer"><%= link_to "Editer", edit_circuit_path(circuit) %></div>
+    <div class="span1 supprimer">
+      <%= link_to "Supprimer", circuit, method: :delete, data: {confirm: "Êtes vous sûr ?"} %>
+    </div>
+<% end %>
+<br/>

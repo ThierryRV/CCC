@@ -1,20 +1,19 @@
-<li class="programmations">
-  <ul class="programmation">
-    <%= link_to(programmation) do %>
-        <li class="programmation_le_date"><%= programmation.le.strftime("%d/%m/%Y") %></li>
-        <li class="programmation_le_heure"><%= programmation.le.strftime("%T") %></li>
-        <li class="programmation_groupe"><%= programmation.groupe %></li>
-    <% end %>
-    <%= link_to(programmation.programme) do %>
-        <li class="programmation_nom"><%= programmation.programme.nom %></li>
-    <% end %>
-    <li class="suppression">
-      <% if current_user.admin? %>
-          <%= link_to "Supprimer", programmation, method: :delete, data: {confirm: "Êtes vous sûr ?"} %>
-      <% end %>
-    </li>
-  </ul>
-  <ul class="programmation">
-    <li class="programmation_observations"><%= programmation.observations %></li>
-  </ul>
-</li>
+<%= link_to(programmation) do %>
+    <div class="span1"><%= programmation.le.strftime("%d/%m/%Y") %></div>
+    <div class="span1"><%= programmation.le.strftime("%T") %></div>
+    <div class="span1"><%= programmation.groupe %></div>
+<% end %>
+<div class="span5 programmation_nom">
+  <%= link_to(programmation.programme) do %>
+      <%= programmation.programme.nom %>
+  <% end %>
+</div>
+<div class="span2 supprimer">
+  <% if current_user.admin? %>
+      <%= link_to "Supprimer", programmation, method: :delete, data: {confirm: "Êtes vous sûr ?"} %>
+  <% end %>
+</div>
+<br/>
+<div class="row">
+  <div class="span5 offset3"><%= markdown programmation.observations %></div>
+</div>

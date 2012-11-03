@@ -18,3 +18,18 @@ MarcelRV_22
 
 rails generate migration add_observations_to_evenements observations:string
 rake db:migrate
+
+
+Programmation.find(:all).each do |p|  
+  puts "#{p.id}"
+  p.observations = p.observations.nil? ? "" : p.observations.strip
+  p.save!
+end
+
+
+rails generate migration add_admin_to_users admin:boolean
+
+rails generate migration add_emailccc_licence_to_users emailccc:string licence:string
+rake db:migrate
+
+Cy3Cl3Co62

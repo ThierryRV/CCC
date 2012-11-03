@@ -1,10 +1,12 @@
+# encoding: UTF-8
+#
 class ProgrammationsController < ApplicationController
   def index
     @programmations = Programmation.paginate(page: params[:page])
   end
 
   def show
-    @programmations = Programmation.find(params[:id])
+    @programmation = Programmation.find(params[:id])
   end
 
  def edit

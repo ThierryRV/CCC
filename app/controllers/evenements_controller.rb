@@ -1,3 +1,5 @@
+# encoding: UTF-8
+#
 class EvenementsController < ApplicationController
   def index
     @evenements = Evenement.paginate(page: params[:page])

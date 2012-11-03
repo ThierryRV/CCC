@@ -1,5 +1,5 @@
 <% provide(:title, @circuit.description) %>
-<h1>Circuit C.C.C. <%= @circuit.description %></h1>
+<h2>Circuit C.C.C. <%= @circuit.description %></h2>
 <div class="row">
   <div class="span2 center">
     Identifiant
@@ -43,7 +43,21 @@
 <br/>
 <div class="row">
   <div class="span12">
-    <h1>Parcours</h1>
+    <h2>Dernières programmations</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <% @circuit.programmations.each do  |i| %>
+    <%= i.le.strftime("%d/%m/%Y") %>
+        <br/>
+    <% end %>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="span12">
+    <h2>Parcours</h2>
   </div>
 </div>
 <div class="row">
@@ -56,7 +70,7 @@
 <br/>
 <div class="row">
   <div class="span12 center">
-    <h1>Carte</h1>
+    <h2>Carte</h2>
     <script  type="text/javascript" src="<%= openrunner_map_for(@circuit.id_openrunner) %>" >
     </script>
   </div>

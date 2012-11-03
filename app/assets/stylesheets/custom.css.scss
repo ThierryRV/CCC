@@ -243,45 +243,6 @@ aside {
   }
 }
 
-/* circuits index */
-.circuits {
-  list-style: none;
-  margin: 0;
-  li.circuits {
-    overflow: auto;
-    padding: 2px 0;
-/*
-    border-top: 1px solid $grayLighter;
-    &:last-child {
-      border-bottom: 1px solid $grayLighter;
-    }
-*/
-  }
-}
-
-/* circuits index */
-.circuit {
-  list-style: none;
-  margin: 0;
-  li.circuit {
-    float: left;
-    display: inline;
-    width: 50px;
-    /*border: 1px solid #e8e8e8;*/
-  }
-  li.suppression a{
-    float: left;
-    display: inline;
-    width: 70px;
-    /*color: red;*/
-    /*border: 1px solid #e8e8e8;*/
-  }
-  li.suppression a:hover {
-    text-decoration: none;
-    color: red;
-  }
-}
-
 .carte {
 
 }
@@ -336,3 +297,21 @@ aside {
     color: red;
   }
 }
+
+  .programmation_nom {
+    margin-left: 0px;
+  }
+ .programmation_nom a:hover {
+    text-decoration: none;
+    color: green;
+  }
+
+.supprimer a:hover {
+    text-decoration: none;
+    color: red;
+  }
+
+.editer a:hover {
+    text-decoration: none;
+    color: #00ff7f;
+  }

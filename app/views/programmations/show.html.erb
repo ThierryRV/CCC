@@ -1,5 +1,5 @@
-<% provide(:title, @programmation.nom) %>
-<h1>Evenements du Codep : <%= @programmation.nom %></h1>
+<% provide(:title, @programmation.programme.nom) %>
+<h1>Rendez-vous CCC : <%= @programmation.programme.nom %></h1>
 <div class="row">
   <div class="span2 center">
     Identifiant
@@ -8,13 +8,13 @@
     Date
   </div>
   <div class="span2 center">
-    Genre
+    Heure
+  </div>
+  <div class="span2 center">
+    Groupe
   </div>
   <div class="span2 center">
     Nom
-  </div>
-  <div class="span2 center">
-    Categorie
   </div>
 </div>
 <div class="row">
@@ -22,31 +22,27 @@
     <%= @programmation.id %>
   </div>
   <div class="span2 center">
-    <% if @programmation.le.blank? %>
-        Permanente
-    <% else %>
-        <%= @programmation.le.strftime("%d/%m/%Y") %>
-    <% end %>
+    <%= @programmation.le.strftime("%d/%m/%Y") %>
   </div>
   <div class="span2 center">
-    <%= @programmation.genre %>
+    <%= @programmation.le.strftime("%T") %>
   </div>
   <div class="span2 center">
-    <%= @programmation.nom %>
+    <%= @programmation.groupe %>
   </div>
   <div class="span2 center">
-    <%= @programmation.categorie %>
+    <%= @programmation.programme.nom %>
   </div>
 </div>
 <br/>
 <div class="row">
   <div class="span12">
-    <h1>Description</h1>
+    <h1>Observations</h1>
   </div>
 </div>
 <div class="row">
   <div class="span12">
-    <%= @evenement.description %>
+    <%= markdown @programmation.observations %>
   </div>
 </div>
 <br/>
