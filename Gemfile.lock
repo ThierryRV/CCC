@@ -93,14 +93,10 @@ GEM
       spork (>= 0.8.4)
     highline (1.6.15)
     hike (1.2.1)
-<<<<<<< HEAD
-    i18n (0.6.1)
-=======
     i18n (0.6.0)
     imperavi-rails (0.0.12.beta)
       jquery-rails
       rails (~> 3.1)
->>>>>>> programmation-et-bible
     journey (1.0.4)
     jquery-rails (2.1.2)
       railties (>= 3.1.0, < 5.0)
@@ -217,12 +213,8 @@ DEPENDENCIES
   growl (= 1.0.3)
   guard-rspec (= 0.5.5)
   guard-spork (= 0.3.2)
-<<<<<<< HEAD
-  jquery-rails (~> 2.1.2)
-=======
   imperavi-rails (= 0.0.12.beta)
-  jquery-rails (= 2.0.0)
->>>>>>> programmation-et-bible
+  jquery-rails (~> 2.1.2)
   mysql2 (~> 0.3.11)
   nokogiri (~> 1.5.5)
   rails (= 3.2.8)
