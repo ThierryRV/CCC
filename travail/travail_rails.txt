@@ -33,3 +33,17 @@ rails generate migration add_emailccc_licence_to_users emailccc:string licence:s
 rake db:migrate
 
 Cy3Cl3Co62
+
+rails generate model Licence numero:string nom:string prenom:string reference:string adresse:string code_postal:string ville:string telephone:string naissance:date email:string inscription:date
+bundle exec rake db:migrate
+bundle exec rake db:test:prepare
+rails generate migration add_sexe_to_licences sexe:string
+
+
+http://anonym.to/?http://www.jeuxvideo.com/
+
+rails generate migration add_particularite_to_evenements particularite:string
+rake db:migrate
+
+rake --trace codep91_2013:charger
+rake --trace programme_ccc:charger

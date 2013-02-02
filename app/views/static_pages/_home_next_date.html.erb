@@ -1,0 +1,36 @@
+<div class="row">
+  <%= link_to(home_next_date) do %>
+      <div class="span1">
+        <%= home_next_date.le.strftime("%d/%m/%Y") %>
+      </div>
+      <div class="span1">
+        <%= home_next_date.le.strftime("%T") %>
+      </div>
+      <div class="span1">
+        <%= home_next_date.groupe %>
+      </div>
+  <% end %>
+  <%= link_to(home_next_date.programme) do %>
+      <% if home_next_date.programme_type == "Circuit" %>
+          <div class="span1">
+            <%= home_next_date.programme.nom %>
+          </div>
+          <div class="span1">
+            <%= home_next_date.programme.direction %>
+          </div>
+          <div class="span1">
+            <%= home_next_date.programme.longueur.to_s + " km" %>
+          </div>
+          <div class="span1">
+            <%= home_next_date.programme.denivele.to_s + " m" %>
+          </div>
+          <div class="span1">
+            <%= home_next_date.programme.difficulte %>
+          </div>
+      <% else %>
+          <div class="span4">
+            <%= home_next_date.programme.nom %>
+          </div>
+      <% end %>
+  <% end %>
+</div>

@@ -41,8 +41,8 @@ describe "Static pages" do
           visit root_path
         end
 
-        it { should have_link("0 following", href: following_user_path(user)) }
-        it { should have_link("1 follower", href: followers_user_path(user)) }
+        it { should have_link("0 Vous suivez", href: following_user_path(user)) }
+        it { should have_link("1 Il vous suit", href: followers_user_path(user)) }
       end
 
     end
@@ -83,6 +83,6 @@ describe "Static pages" do
     click_link "Accueil"
     page.should have_selector 'title', text: full_title('')
     click_link "Inscrivez-vous maintenant !"
-    page.should have_selector 'title', text: full_title("S'inscrire")
+    page.should have_selector 'title', text: full_title("Inscription")
   end
 end

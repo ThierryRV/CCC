@@ -1,0 +1,101 @@
+<Programmations>
+  <Programmation>
+    <Le>03/02/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>26 B</Programme_nom>
+    <Distance>65</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud : Macherin**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>03/02/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>11 A</Programme_nom>
+    <Distance>46</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud : Soisy sur école**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>10/02/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>25 A</Programme_nom>
+    <Distance>59</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest : Villeconin**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>10/02/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>12 B</Programme_nom>
+    <Distance>51</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud/ouest : Cerny village**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>17/02/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>31 A</Programme_nom>
+    <Distance>60</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud : Jarcy**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>17/02/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>13 A</Programme_nom>
+    <Distance>53</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud : Dannemois**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>24/02/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE DES RETROUVAILLES</Programme_nom>
+    <Distance>60 km</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **08h00 du local**
+      Place Raymond GOMBAUD ORMOY
+      Tarif : 2€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>24/02/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Rallye des Retrouvailles ORMOY</Programme_nom>
+    <Distance>40 km</Distance>
+    <Heure_de_départ>08h30</Heure_de_départ>
+    <Observations>
+      **08h30 du local**
+      Place Raymond GOMBAUD
+      Tarif : 2€
+    </Observations>
+  </Programmation>
+</Programmations>

@@ -1,4 +1,4 @@
-<%= provide(:title, "S'inscrire") %>
+<%= provide(:title, "Inscription") %>
 <h1>S'inscrire</h1>
 
 <div class="row">
@@ -11,6 +11,12 @@
 
       <%= f.label :email %>
       <%= f.text_field :email %>
+
+      <%= f.label :emailccc, "Email pour la photo"  %>
+      <%= f.text_field :emailccc %>
+
+      <%= f.label :licence, "N° de licence" %>
+      <%= f.text_field :licence %>
 
       <%= f.label :password, "Mot de passe" %>
       <%= f.password_field :password %>

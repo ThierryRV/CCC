@@ -1,4 +1,3 @@
-INSERT INTO ccc_development.evenements (id, description, created_at, updated_at, le, categorie, nom, type) VALUES (64, 'A renseigner.', '2012-09-12 23:32:00', '2012-09-12 23:32:00', '2012-05-05 00:00:00', 'ROUTE', 'ST ARNOULT / MAILLEBOIS / ST ARNOULT', 'Programme 2012');
 use ccc_development;
 
 TRUNCATE TABLE ccc_development.circuits;
@@ -79,8 +78,6 @@ UPDATE programmations SET groupe='RS & R', le='2012-07-08 08:00:00' where id=491
  select * from programmations where le >= '2012-11-01' order by le desc;
  delete from programmations where le >= '2012-11-01';
  
- delete from ccc_development.programmations where le >= '2012-10-01';
- 
  update circuits set denivele=0 where denivele is null;
  
 UPDATE circuits set id_openrunner = '863570' where description = '52 A';
@@ -110,6 +107,7 @@ select programme_type,programme_id,count(*) from programmations group by program
 select * from circuits where id=36;
 
 select * from programmations where programme_id=36;
+select programme_id,count(*) from programmations p, where programme_type='Circuit' group by programme_id order by count(*) desc
 
 use ccc_development;
 update users set emailccc='ccc.thiher.739619@gmail.com', licence='739619' where id=1;
@@ -117,3 +115,6 @@ update users set emailccc='ccc.danmau.174646@gmail.com', licence='174646' where 
 update users set emailccc='ccc.patcoc.725257@gmail.com', licence='725257' where id=3;
 update users set emailccc='ccc.armmar.331328@gmail.com', licence='331328' where id=4;
 commit;
+
+
+select

@@ -18,7 +18,7 @@ describe "Authentication" do
       before { click_button "Se connecter" }
 
       it { should have_selector('title', text: 'Se connecter') }
-      it { should have_error_message('Invalid') }
+      it { should have_error_message('invalide') }
 
       describe "after visiting another page" do
         before { click_link "Accueil" }

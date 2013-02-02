@@ -10,11 +10,14 @@
 #  password_digest :string(255)
 #  remember_token  :string(255)
 #  admin           :boolean(1)      default(FALSE)
+#  emailccc        :string(255)
+#  licence         :string(255)
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :email, :password, :password_confirmation
   has_secure_password
+
+  attr_accessible :name, :email, :password, :password_confirmation, :emailccc, :licence
 
   has_many :microposts, dependent: :destroy
 
@@ -33,8 +36,20 @@ class User < ActiveRecord::Base
   validates :email, presence: true,
             format: {with: VALID_EMAIL_REGEX},
             uniqueness: {case_sensitive: false}
+  validates :emailccc, presence: true,
+            format: {with: VALID_EMAIL_REGEX},
+            uniqueness: {case_sensitive: false}
   validates :password, length: {minimum: 6}
   validates :password_confirmation, presence: true
+  validate :user_licence_exists
+
+  def user_licence_exists
+    if Licence.find_by_numero(self.licence).nil?
+      return false
+    else
+      return true
+    end
+  end
 
   def feed
     Micropost.from_users_followed_by(self)

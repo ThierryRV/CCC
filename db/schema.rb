@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121026085914) do
+ActiveRecord::Schema.define(:version => 20130115170250) do
 
   create_table "circuits", :force => true do |t|
     t.string   "description"
@@ -25,13 +25,14 @@ ActiveRecord::Schema.define(:version => 20121026085914) do
   end
 
   create_table "evenements", :force => true do |t|
-    t.string   "description", :limit => 1024
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
+    t.string   "description",   :limit => 1024
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
     t.datetime "le"
     t.string   "categorie"
     t.string   "nom"
     t.string   "genre"
+    t.string   "particularite"
   end
 
   create_table "indications", :force => true do |t|
@@ -40,11 +41,28 @@ ActiveRecord::Schema.define(:version => 20121026085914) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "licences", :force => true do |t|
+    t.string   "numero"
+    t.string   "nom"
+    t.string   "prenom"
+    t.string   "reference"
+    t.string   "adresse"
+    t.string   "code_postal"
+    t.string   "ville"
+    t.string   "telephone"
+    t.date     "naissance"
+    t.string   "email"
+    t.date     "inscription"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "sexe"
+  end
+
   create_table "microposts", :force => true do |t|
-    t.string   "content"
+    t.string   "content",    :limit => 4000
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
   end
 
   add_index "microposts", ["user_id", "created_at"], :name => "index_microposts_on_user_id_and_created_at"

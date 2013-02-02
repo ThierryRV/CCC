@@ -35,19 +35,19 @@ describe "User pages" do
 
         it "should increment the followed user count" do
           expect do
-            click_button "Follow"
+            click_button "Suivre"
           end.to change(user.followed_users, :count).by(1)
         end
 
         it "should increment the other user's followers count" do
           expect do
-            click_button "Follow"
+            click_button "Suivre"
           end.to change(other_user.followers, :count).by(1)
         end
 
         describe "toggling the button" do
-          before { click_button "Follow" }
-          it { should have_selector('input', value: 'Unfollow') }
+          before { click_button "Suivre" }
+          it { should have_selector('input', value: 'Ne plus suivre') }
         end
       end
 
@@ -59,19 +59,19 @@ describe "User pages" do
 
         it "should decrement the followed user count" do
           expect do
-            click_button "Unfollow"
+            click_button "Ne plus suivre"
           end.to change(user.followed_users, :count).by(-1)
         end
 
         it "should decrement the other user's followers count" do
           expect do
-            click_button "Unfollow"
+            click_button "Ne plus suivre"
           end.to change(other_user.followers, :count).by(-1)
         end
 
         describe "toggling the button" do
-          before { click_button "Unfollow" }
-          it { should have_selector('input', value: 'Follow') }
+          before { click_button "Ne plus suivre" }
+          it { should have_selector('input', value: 'Suivre') }
         end
       end
     end
@@ -81,7 +81,7 @@ describe "User pages" do
   describe "signup page" do
     before { visit signup_path }
     let(:heading)    { "S'inscrire" }
-    let(:page_title) { "S'inscrire" }
+    let(:page_title) { "Inscription" }
 
     it_should_behave_like "all user pages"
   end
@@ -98,7 +98,7 @@ describe "User pages" do
       describe "error messages" do
         before { click_button "Créer mon compte" }
 
-        it { should have_selector('title', text: "S'inscrire") }
+        it { should have_selector('title', text: "Inscription") }
         it { should have_content('error') }
       end
 
@@ -123,7 +123,7 @@ describe "User pages" do
         let(:user) { User.find_by_email('user@example.com') }
 
         it { should have_selector('title', text: user.name) }
-        it { should have_selector('div.alert.alert-success', text: 'Welcome') }
+        it { should have_selector('div.alert.alert-success', text: 'Bienvenue') }
         it { should have_link('Se déconnecter') }
       end
     end
@@ -137,13 +137,13 @@ describe "User pages" do
     end
 
     describe "page" do
-      it { should have_selector('h1',    text: "Update your profile") }
+      it { should have_selector('h1',    text: "Modification de votre profil") }
       it { should have_selector('title', text: "Modification du profil cyclo.") }
-      it { should have_link('change', href: 'http://gravatar.com/emails') }
+      it { should have_link('Changer', href: 'http://gravatar.com/emails') }
     end
 
     describe "with invalid information" do
-      before { click_button "Save changes" }
+      before { click_button "Enregister" }
 
       it { should have_content('error') }
     end
@@ -156,7 +156,7 @@ describe "User pages" do
         fill_in "Email",                        with: new_email
         fill_in "Mot de passe",                 with: user.password
         fill_in "Confirmation du mot de passe", with: user.password
-        click_button "Save changes"
+        click_button "Enregister"
       end
 
       it { should have_selector('title', text: new_name) }

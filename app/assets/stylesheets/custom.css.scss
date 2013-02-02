@@ -315,3 +315,16 @@ aside {
     text-decoration: none;
     color: #00ff7f;
   }
+
+/* Pour fixer une hauteur maximum pour les images d'un carousel */
+.cccCarouselImg img {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+
+.cccCarouselRow {
+  height: 205px;
+  max-height: 205px;
+  padding: 0px;
+}

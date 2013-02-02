@@ -1,0 +1,153 @@
+<Programmations>
+  <Programmation>
+    <Le>02/12/2102</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>26 B</Programme_nom>
+    <Distance>65</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud/ Barbizon**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>02/12/2102</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>17 B</Programme_nom>
+    <Distance>54</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud : Dannemois**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>08/12/2012</Le>
+    <Groupe>RS &amp; R &amp; C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Téléthon</Programme_nom>
+    <Distance>0</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      Téléthon : participation du club
+      de 10h00 A 17 h00
+      Gymnase Colette Besson à
+      Courcouronnes
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>09/12/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>25 A</Programme_nom>
+    <Distance>65</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud /Ouest Villeconin**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>09/12/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>15 A</Programme_nom>
+    <Distance>52</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud : Boissy le Cutté**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>15/12/2012</Le>
+    <Groupe>RS &amp; R &amp; C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>A.G.</Programme_nom>
+    <Distance>0</Distance>
+    <Heure_de_départ>16h00</Heure_de_départ>
+    <Observations>
+      16h00 : Assemblée générale
+      Du club
+      20h00 : repas de fin d’année
+      Ferme du Bois Briard
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>16/12/2012</Le>
+    <Groupe>RS &amp; R &amp; C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>14 A</Programme_nom>
+    <Distance>51</Distance>
+    <Heure_de_départ>9h30</Heure_de_départ>
+    <Observations>
+      **Sud : Chêne Bécart**
+      Parcours commun
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>23/12/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>29 A</Programme_nom>
+    <Distance>66</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Ouest : Mesnil Racoin**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>23/12/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>13 A</Programme_nom>
+    <Distance>49</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud : Soisy s/ Ecole**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>25/12/2012</Le>
+    <Groupe>RS &amp; R &amp; C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>11 A</Programme_nom>
+    <Distance>46</Distance>
+    <Heure_de_départ>9h30</Heure_de_départ>
+    <Observations>
+      **Sud : Soisy s/ Ecole**
+      Parcours commun
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>30/12/2012</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>30 B</Programme_nom>
+    <Distance>66</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud : Fleury en Bière**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>30/12/2012</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>12 A</Programme_nom>
+    <Distance>47</Distance>
+    <Heure_de_départ>9h00</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest ; Orgemont**
+    </Observations>
+  </Programmation>
+</Programmations>

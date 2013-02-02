@@ -17,6 +17,17 @@ class Programmation < ActiveRecord::Base
 
   belongs_to :programme, :polymorphic => true, dependent: :destroy
 
-  default_scope order: 'programmations.le DESC'
+#  default_scope order: 'programmations.le DESC'
+
+  #def self.next_10_dates(from)
+  #  return Programmation.where("le >= ?",from).order("le asc").limit(10)
+  #end
+
+  def self.next_10_dates()
+    return Programmation.where("le >= ?",Date.current()).order("le asc").limit(10)
+  end
+
+
+
 
 end

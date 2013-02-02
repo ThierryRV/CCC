@@ -1,0 +1,8 @@
+<% if @next_dates.any? %>
+    <h3>
+      Les 10 prochains rendez-vous.
+    </h3>
+    <div class="span12">
+      <%= render partial: 'home_next_date', collection: @next_dates %>
+    </div>
+<% end %>

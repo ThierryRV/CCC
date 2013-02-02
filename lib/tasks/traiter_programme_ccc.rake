@@ -12,6 +12,21 @@ namespace :programme_ccc do
 
     doc = Nokogiri::XML(file_programmeCCC)
 
+=begin
+    <Programmations>
+      <Programmation>
+        <Le>02/12/2102</Le>
+        <Groupe>RS &amp; R</Groupe>
+        <Programme_type>Circuit</Programme_type>
+        <Programme_nom>26 B</Programme_nom>
+        <Distance>65</Distance>
+        <Heure_de_départ>9h00</Heure_de_départ>
+        <Observation>
+          **Sud/ Barbizon**
+        </Observation>
+      </Programmation>
+=end
+
     doc.css('Programmation').each do |programme|
       # Get common elements
       nom = programme.at_css('Programme_nom').content

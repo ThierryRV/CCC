@@ -7,13 +7,14 @@ end
 #
 # Table name: evenements
 #
-#  id          :integer(4)      not null, primary key
-#  description :string(255)
-#  created_at  :datetime        not null
-#  updated_at  :datetime        not null
-#  le          :datetime
-#  categorie   :string(255)
-#  nom         :string(255)
-#  type        :string(255)
+#  id            :integer(4)      not null, primary key
+#  description   :string(1024)
+#  created_at    :datetime        not null
+#  updated_at    :datetime        not null
+#  le            :datetime
+#  categorie     :string(255)
+#  nom           :string(255)
+#  genre         :string(255)
+#  particularite :string(255)
 #
 

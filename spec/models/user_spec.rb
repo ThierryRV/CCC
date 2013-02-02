@@ -10,6 +10,8 @@
 #  password_digest :string(255)
 #  remember_token  :string(255)
 #  admin           :boolean(1)      default(FALSE)
+#  emailccc        :string(255)
+#  licence         :string(255)
 #
 
 require 'spec_helper'
@@ -18,7 +20,8 @@ describe User do
 
   before do
     @user = User.new(name: "Example User", email: "user@example.com",
-                     password: "foobar", password_confirmation: "foobar")
+                     password: "foobar", password_confirmation: "foobar",
+                     emailccc: "user_ccc@example.com", licence: "00122")
   end
 
   subject { @user }

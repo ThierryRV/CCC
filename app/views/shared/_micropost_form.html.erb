@@ -1,10 +1,10 @@
 <%= include_imperavi_stylesheet %>
 <%= include_imperavi_javascript %>
-<%= imperavi :edit_message %>
+<%= imperavi :edit_message, :style=>"width: 920px;"%>
 <%= form_for(@micropost) do |f| %>
     <%= render 'shared/error_messages', object: f.object %>
-    <div class="field">
-      <%= f.text_area :content, id: "edit_message", placeholder: "Composer votre message..." %>
+    <div class="field"">
+      <%= f.text_area :content, id: "edit_message", placeholder: "Composer votre message...",  style: "width: 98%" %>
     </div>
     <%= f.submit "Envoyer", class: "btn btn-large btn-primary" %>
 <% end %>
