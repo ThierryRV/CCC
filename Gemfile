@@ -41,7 +41,6 @@ end
 
 group :production do
   gem 'execjs'
-  gem 'libv8', '3.11.8.4', :platform => :ruby
-  gem 'therubyracer', '0.11.0', :platform => :ruby
+  gem 'therubyracer', '0.11.1', :platform => :ruby
 #  gem 'therubyracer'
 end
