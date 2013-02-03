@@ -41,6 +41,5 @@ end
 
 group :production do
   gem 'execjs'
-  gem 'therubyracer', '0.11.1', :platform => :ruby
-#  gem 'therubyracer'
+  gem "therubyracer", "~> 0.11.3"
 end
