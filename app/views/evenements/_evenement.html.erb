@@ -10,7 +10,7 @@
         <li class="evenement_nom"><%= evenement.nom %></li>
     <% end %>
     <li class="suppression">
-      <% if current_user.admin? %>
+      <% if !current_user.nil? && current_user.admin? %>
           <%= link_to "Supprimer", evenement, method: :delete, data: {confirm: "Êtes vous sûr ?"} %>
       <% end %>
     </li>

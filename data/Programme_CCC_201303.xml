@@ -1,0 +1,136 @@
+<Programmations>
+  <Programmation>
+    <Le>03/03/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>47 A</Programme_nom>
+    <Distance>78</Distance>
+    <Heure_de_départ>8h30</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest : Le Chesnay**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>03/03/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>25 B</Programme_nom>
+    <Distance>65</Distance>
+    <Heure_de_départ>8h30</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest : Villeconin**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>10/03/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>50 A</Programme_nom>
+    <Distance>80</Distance>
+    <Heure_de_départ>8h30</Heure_de_départ>
+    <Observations>
+      **Sud/Est : Buno Bonnevaux**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>10/03/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>31 A</Programme_nom>
+    <Distance>68</Distance>
+    <Heure_de_départ>8h30</Heure_de_départ>
+    <Observations>
+      **Sud : Jarcy**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>17/03/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Brevet de Longjumeau</Programme_nom>
+    <Distance>200</Distance>
+    <Heure_de_départ>7h00</Heure_de_départ>
+    <Observations>
+      **Sur place**
+      Salle Anne Franck
+      Rue Léontine Sohier
+      Longjumeau
+      Pré-inscription avant le 03/03
+      4,00€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>17/03/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Rallye du Dragon</Programme_nom>
+    <Distance>110</Distance>
+    <Heure_de_départ>7h00</Heure_de_départ>
+    <Observations>
+      **Sur place**
+      Gymnase des Mares Yvon
+      Place Léonard de Vinci
+      Saint Michel sur Orge
+      Pré-inscription avant le 03/03
+      3,50€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>17/03/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Rallye du Dragon</Programme_nom>
+    <Distance>70</Distance>
+    <Heure_de_départ>8h00</Heure_de_départ>
+    <Observations>
+      **Sur place**
+      Gymnase des Mares Yvon
+      Place Léonard de Vinci
+      Saint Michel sur Orge
+      Pré-inscription avant le 03/03
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>24/03/2013</Le>
+    <Groupe>RS &amp; R &amp; C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Rallye Soleil et Ombrages</Programme_nom>
+    <Distance>0</Distance>
+    <Heure_de_départ>07h00</Heure_de_départ>
+    <Observations>
+      Tout le monde sur le pont pour
+      l'organisation de notre rallye.
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>31/03/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>58 A</Programme_nom>
+    <Distance>86</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud** Champmotteux
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>31/03/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>38 B</Programme_nom>
+    <Distance>72</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud** Boissy le Cutté
+    </Observations>
+  </Programmation>
+</Programmations>

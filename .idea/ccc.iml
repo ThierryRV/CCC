@@ -59,6 +59,7 @@
     <orderEntry type="library" scope="PROVIDED" name="imperavi-rails (v0.0.12.beta, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v2.1.4, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.7.6, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="libv8 (v3.11.8.13, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="libwebsocket (v0.1.7.1, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v0.7.1, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="lumberjack (v1.0.2, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
@@ -83,6 +84,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.9.3, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="redcarpet (v2.2.2, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ref (v1.0.2, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec (v2.8.0, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-core (v2.8.0, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.8.0, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
@@ -96,6 +98,7 @@
     <orderEntry type="library" scope="PROVIDED" name="spork (v0.9.0, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.5, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.11.3, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.16.0, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.3, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.12, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
