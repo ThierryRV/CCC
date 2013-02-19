@@ -1,77 +1,54 @@
 <% provide(:title, @circuit.description) %>
-<h2>Circuit C.C.C. <%= @circuit.description %></h2>
-<div class="row">
-  <div class="span2 center">
-    Identifiant
-  </div>
-  <div class="span2 center">
-    Nom
-  </div>
-  <div class="span2 center">
-    Direction
-  </div>
-  <div class="span2 center">
-    Longueur
-  </div>
-  <div class="span2 center">
-    Difficulté
-  </div>
-  <div class="span2 center">
-    Dénivelé
+<div class="row alert alert-info">
+  <div class="span4 offset3 center">
+    <h1>
+      <small>Circuit C.C.C. <%= @circuit.description %></small>
+    </h1>
   </div>
 </div>
-<div class="row">
-  <div class="span2 center">
-    <%= @circuit.id %>
+<div class="row alert alert-info">
+  <div class="span6">
+    <h2>Fiche du circuit <%= @circuit.description %></h2>
+    <div class="row">
+      <span class="span3">Direction</span>
+      <span class="span3"><%= @circuit.direction %></span>
+    </div>
+    <div class="row">
+      <span class="span3">Longueur</span>
+      <span class="span3"><%= @circuit.longueur.to_s + ' km' %></span>
+    </div>
+    <div class="row">
+      <span class="span3">Difficulté</span>
+      <span class="span3"><%= @circuit.difficulte %></span>
+    </div>
+    <div class="row">
+      <span class="span3">Dénivelé</span>
+      <span class="span3"><%= @circuit.denivele.to_s + ' m' %></span>
+    </div>
   </div>
-  <div class="span2 center">
-    <%= @circuit.description %>
-  </div>
-  <div class="span2 center">
-    <%= @circuit.direction %>
-  </div>
-  <div class="span2 center">
-    <%= @circuit.longueur.to_s + ' km'%>
-  </div>
-  <div class="span2 center">
-    <%= @circuit.difficulte %>
-  </div>
-  <div class="span2 center">
-    <%= @circuit.denivele.to_s + ' m'%>
-  </div>
-</div>
-<br/>
-<div class="row">
-  <div class="span12">
+  <div class="span4">
     <h2>Dernières programmations</h2>
-  </div>
-</div>
-<div class="row">
-  <div class="span12">
-    <% @circuit.programmations.each do  |i| %>
-    <%= i.le.strftime("%d/%m/%Y") %>
-        <br/>
+    <% length=@circuit.programmations.length %>
+    <% @circuit.programmations.each_with_index do |v,i| %>
+        <%= v.le.strftime("%d/%m/%Y") + ((i < length - 1) ? ' - ' : '').to_s %>
     <% end %>
   </div>
 </div>
-<br/>
-<div class="row">
-  <div class="span12">
-    <h2>Parcours</h2>
+<div class="row alert alert-info">
+  <div class="span3">
+    <div class="row">
+      <h2>Parcours</h2>
+    </div>
+    <div class="row">
+      <% length=@circuit.indications.length %>
+      <% @circuit.indications.each_with_index do |v,i| %>
+          <%= v.nom + ((i < length - 1) ? ' - ' : '').to_s %>
+      <% end %>
+    </div>
   </div>
-</div>
-<div class="row">
-  <div class="span12">
-    <% @circuit.indications.each do  |i| %>
-    <%= i.nom + ' - ' %>
-    <% end %>
-  </div>
-</div>
-<br/>
-<div class="row">
-  <div class="span12 center">
-    <h2>Carte</h2>
-    <script  type="text/javascript" src="<%= openrunner_map_for(@circuit.id_openrunner) %>" >
+  <div class="span8 center">
+    <script type="text/javascript" src="<%= openrunner_map_for(@circuit.id_openrunner) %>">
     </script>
   </div>
+</div>
 </div>

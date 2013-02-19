@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e51f0b5-a5c1-45bc-87fd-05036a144acd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/evenements/_evenement.html.erb" afterPath="$PROJECT_DIR$/app/views/evenements/_evenement.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ccc.iml" afterPath="$PROJECT_DIR$/.idea/ccc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/circuits/show.html.erb" afterPath="$PROJECT_DIR$/app/views/circuits/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ccc.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7e51f0b5-a5c1-45bc-87fd-05036a144acd" time="1360235175215" ignored="false" />
+    <file path="/Dummy.txt" changelist="7e51f0b5-a5c1-45bc-87fd-05036a144acd" time="1361269523496" ignored="false" />
+    <file path="/show.html.erb" changelist="7e51f0b5-a5c1-45bc-87fd-05036a144acd" time="1361292683476" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,64 +25,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/circuits/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="36" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.6454918">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="circuit.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/circuit.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="37" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FFCT-CODEP-91-2013.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/FFCT-CODEP-91-2013.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="214" selection-start="10500" selection-end="10500" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_evenement.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/evenements/_evenement.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="58" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Programme_CCC_201303.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/Programme_CCC_201303.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="259" selection-start="2490" selection-end="2490" vertical-scroll-proportion="1.402439">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traiter_programme_ccc.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/tasks/traiter_programme_ccc.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="63" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_circuit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/circuits/_circuit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="366" selection-end="407" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_home_next_10.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/_home_next_10.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="42" column="0" selection-start="917" selection-end="1068" vertical-scroll-proportion="-26.25">
               <folding />
             </state>
           </provider>
@@ -107,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/tasks/traiter_codep_91_2013.rake" />
         <option value="$PROJECT_DIR$/travail/travail_rails.txt" />
         <option value="$PROJECT_DIR$/lib/tasks/traiter_programme_ccc.rake" />
         <option value="$PROJECT_DIR$/data/Programme_CCC_201212.xml" />
@@ -123,13 +85,14 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/_home_next_10.html.erb" />
         <option value="$PROJECT_DIR$/app/views/evenements/_evenement.html.erb" />
         <option value="$PROJECT_DIR$/data/Programme_CCC_201303.xml" />
+        <option value="$PROJECT_DIR$/app/views/circuits/show.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1122" />
+    <option name="height" value="1123" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -173,6 +136,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+        <subPane subId="All" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,24 +398,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-        <subPane subId="All" />
-      </pane>
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -582,6 +545,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -682,14 +652,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1122" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1920" height="1123" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16221985" sideWeight="0.502439" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19263607" sideWeight="0.6457311" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19477054" sideWeight="0.6457311" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -761,16 +731,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/circuit.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="409" selection-end="487" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/circuits/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="1446" selection-end="1554" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="47" selection-start="245" selection-end="274" vertical-scroll-proportion="0.0" />
@@ -801,16 +761,9 @@
         <state line="2" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.030800821" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/_home_next_10.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.107581966">
           <folding />
         </state>
       </provider>
@@ -824,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/circuits/_circuit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="366" selection-end="407" vertical-scroll-proportion="0.0">
+        <state line="9" column="47" selection-start="366" selection-end="407" vertical-scroll-proportion="0.13831967">
           <folding />
         </state>
       </provider>
@@ -843,14 +796,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/traiter_programme_ccc.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="63" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+        <state line="13" column="63" selection-start="408" selection-end="408" vertical-scroll-proportion="0.115">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/Programme_CCC_201303.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="259" selection-start="2490" selection-end="2490" vertical-scroll-proportion="1.402439">
+        <state line="92" column="259" selection-start="2490" selection-end="2490" vertical-scroll-proportion="1.3981763">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="917" selection-end="1068" vertical-scroll-proportion="-26.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/circuit.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="37" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/circuits/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="36" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.6454918">
           <folding />
         </state>
       </provider>
