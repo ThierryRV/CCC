@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/app/controllers/documents_controller.rb" description="def upload_doc" line="71" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e51f0b5-a5c1-45bc-87fd-05036a144acd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/documents/_document.html.erb" afterPath="$PROJECT_DIR$/app/views/documents/_document.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/documents_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/documents_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travail/travail_rails.txt" afterPath="$PROJECT_DIR$/travail/travail_rails.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7e51f0b5-a5c1-45bc-87fd-05036a144acd" name="Default" comment="" />
     <ignored path="ccc.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="7e51f0b5-a5c1-45bc-87fd-05036a144acd" time="1370186444919" ignored="false" />
@@ -76,7 +71,7 @@
       <file leaf-file-name="_document.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/documents/_document.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="49" selection-start="55" selection-end="55" vertical-scroll-proportion="0.025728988">
+            <state line="15" column="22" selection-start="589" selection-end="589" vertical-scroll-proportion="0.38593483">
               <folding />
             </state>
           </provider>
@@ -745,7 +740,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3973974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36766276" sideWeight="0.272" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -908,7 +903,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/documents/_document.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="55" selection-end="55" vertical-scroll-proportion="0.025728988">
+        <state line="15" column="22" selection-start="589" selection-end="589" vertical-scroll-proportion="0.38593483">
           <folding />
         </state>
       </provider>
