@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nom:</b>
+  <%= @document.nom %>
+</p>
+
+<p>
+  <b>Chemin:</b>
+  <%= @document.chemin %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @document.type_doc %>
+</p>
+
+<p>
+  <b>Annee:</b>
+  <%= @document.annee %>
+</p>
+
+<p>
+  <b>Mois:</b>
+  <%= @document.mois %>
+</p>
+
+<p>
+  <b>Visibilite:</b>
+  <%= @document.visibilite %>
+</p>
+
+
+<%= link_to 'Edit', edit_document_path(@document) %> |
+<%= link_to 'Back', documents_path %>

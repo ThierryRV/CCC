@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130115170250) do
+ActiveRecord::Schema.define(:version => 20130528053829) do
 
   create_table "circuits", :force => true do |t|
     t.string   "description"
@@ -22,6 +22,17 @@ ActiveRecord::Schema.define(:version => 20130115170250) do
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
     t.string   "id_openrunner"
+  end
+
+  create_table "documents", :force => true do |t|
+    t.string   "nom"
+    t.string   "chemin"
+    t.string   "type_doc"
+    t.string   "annee"
+    t.string   "mois"
+    t.string   "visibilite"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "evenements", :force => true do |t|
@@ -108,6 +119,7 @@ ActiveRecord::Schema.define(:version => 20130115170250) do
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
     t.string   "observations"
+    t.integer  "distance"
   end
 
   create_table "rel_circuit_indications", :force => true do |t|

@@ -117,4 +117,36 @@ update users set emailccc='ccc.armmar.331328@gmail.com', licence='331328' where 
 commit;
 
 
-select
+select * from evenements where id in (67);
+
+ select * from programmations where le >= '2013-02-01' order by le desc;
+
+
+select '-40 km',count(*) from circuits where longueur <= 40
+union
+select '41 - 50 km',count(*) from circuits where longueur > 40 and longueur <= 50
+union
+select '51 - 60 km',count(*) from circuits where longueur > 50 and longueur <= 60
+union
+select '61 - 70 km',count(*) from circuits where longueur > 60 and longueur <= 70
+union
+select '71 - 80 km',count(*) from circuits where longueur > 70 and longueur <= 80
+union
+select '81 - 90 km',count(*) from circuits where longueur > 80 and longueur <= 90
+union
+select '91 - 100 km',count(*) from circuits where longueur > 90 and longueur <= 100
+union
+select '+100 km',count(*) from circuits where longueur > 100
+
+
+select * from circuits where id in (
+select circuit_id from rel_circuit_indications r, indications i where r.indication_id=i.id and upper(i.nom) like upper('%lardy%')
+ )
+ 
+ select * from circuits where description='57 B'
+ 
+ 
+ delete from documents where 1=1;
+ 
+ 
+ select type_doc,count(*) from documents group by type_doc

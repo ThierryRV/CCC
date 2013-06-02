@@ -1,0 +1,270 @@
+<Programmations>
+  <Programmation>
+    <Le>04/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>58 B</Programme_nom>
+    <Distance>86</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest : Mespuits**
+      Lundi de Pâques
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>04/04/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>33 A</Programme_nom>
+    <Distance>70</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest : Prunay/Essonne**
+      Lundi de Pâques
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>07/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RISSOISE</Programme_nom>
+    <Distance>100</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sur place **
+      1er Trophée route
+      Inscriptions prises en compte par le club.
+      Gymnase Jesse Owens 2 Avenue de l'Aunette.
+</Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>07/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RISSOISE</Programme_nom>
+    <Distance>80</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sur place **
+      1er Trophée route
+      Inscriptions prises en compte par le club.
+      Gymnase Jesse Owens 2 Avenue de l'Aunette.
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>07/04/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RISSOISE</Programme_nom>
+    <Distance>60</Distance>
+    <Heure_de_départ>08h30</Heure_de_départ>
+    <Observations>
+      **Sur place **
+      1er Trophée route
+      Inscriptions prises en compte par le club.
+      Gymnase Jesse Owens 2 Avenue de l'Aunette.
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>07/04/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RISSOISE</Programme_nom>
+    <Distance>30</Distance>
+    <Heure_de_départ>08h30</Heure_de_départ>
+    <Observations>
+      **Sur place **
+      1er Trophée route
+      Inscriptions prises en compte par le club.
+      Gymnase Jesse Owens 2 Avenue de l'Aunette.
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>14/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RANDONNEE DE LA TOUR</Programme_nom>
+    <Distance>110</Distance>
+    <Heure_de_départ>07h00</Heure_de_départ>
+    <Observations>
+      **Sur place **
+      LINAS Consom route de Carcassonne
+      Tarif : 3,50
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>14/04/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RANDONNEE DE LA TOUR</Programme_nom>
+    <Distance>70</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sur place **
+      LINAS Consom route de Carcassonne
+      Tarif : 3,50
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>14/04/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA RANDONNEE DE LA TOUR</Programme_nom>
+    <Distance>30</Distance>
+    <Heure_de_départ>09h00</Heure_de_départ>
+    <Observations>
+      **Sur place **
+      LINAS Consom route de Carcassonne
+      Tarif : 3,50
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>14/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>55 A</Programme_nom>
+    <Distance>84</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud : Gorges d'Apremont**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>14/04/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>26 A</Programme_nom>
+    <Distance>65</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud : Barbizon**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>21/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>L’INTEREGIONALE</Programme_nom>
+    <Distance>120</Distance>
+    <Heure_de_départ>07h00</Heure_de_départ>
+    <Observations>
+      **2ème Trophée route**
+      **Sur place**
+      Inscriptions prises en compte par le club.
+      Salle Maison Neuve AUCHAN Brétigny
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>21/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>L’INTEREGIONALE</Programme_nom>
+    <Distance>100</Distance>
+    <Heure_de_départ>07h30</Heure_de_départ>
+    <Observations>
+      **2ème Trophée route**
+      **Sur place**
+      Inscriptions prises en compte par le club.
+      Salle Maison Neuve AUCHAN Brétigny
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>21/04/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>L’INTEREGIONALE</Programme_nom>
+    <Distance>70</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **2ème Trophée route**
+      **Sur place**
+      Inscriptions prises en compte par le club.
+      Salle Maison Neuve AUCHAN Brétigny
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>27/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>MENNECY-MONTARGIS-MENNECY</Programme_nom>
+    <Distance>210</Distance>
+    <Heure_de_départ>06h30</Heure_de_départ>
+    <Observations>
+      **Sur place**
+      Parc de Villeroy
+      3,50 pris en compte club
+      15 repas compris
+      Préinscriptions avant le 14/04
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>27/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>MENNECY-MONTARGIS-MENNECY</Programme_nom>
+    <Distance>150</Distance>
+    <Heure_de_départ>06h30</Heure_de_départ>
+    <Observations>
+      **Sur place**
+      Parc de Villeroy
+      3,50 pris en compte club
+      7
+      Préinscriptions avant le 14/04
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>27/04/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>MENNECY-MONTARGIS-MENNECY</Programme_nom>
+    <Distance>100</Distance>
+    <Heure_de_départ>07h00</Heure_de_départ>
+    <Observations>
+      **Sur place**
+      Parc de Villeroy
+      3,50 pris en compte club
+      7
+      Préinscriptions avant le 14/04
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>28/04/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>57 B</Programme_nom>
+    <Distance>86</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest : Brière les Scellés**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>28/04/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>26 A</Programme_nom>
+    <Distance>71</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/Ouest : Saudreville**
+    </Observations>
+  </Programmation>
+</Programmations>

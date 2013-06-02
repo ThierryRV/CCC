@@ -4,7 +4,7 @@ require 'nokogiri'
 require 'open-uri'
 
 namespace :programme_ccc do
-  desc "charge la bible des circuits dans la base"
+  desc "charge le programme d'un mois dans la base"
   task charger: :environment do
     nomDuFichierATraiter = ask('Entrer le nom du fichier')
     programmeCCC = File.expand_path("../../../data/#{nomDuFichierATraiter}", __FILE__)
@@ -38,21 +38,27 @@ namespace :programme_ccc do
       heureBrute = programme.at_css('Heure_de_départ').content.to_s.strip
       le_heure = leBrute + ' ' + heureBrute + ':00'
 
+      distance = programme.at_css('Distance').content.to_i
+
       # Is it a Circuit or a Evenement ?
       programme_type = programme.at_css('Programme_type').content
       if programme_type=='Circuit'
         oProgramme = Circuit.find_by_description(nom)
+        if oProgramme.longueur != distance
+          puts " !!!! distance du programme (#{distance}) <> distance du circuit (#{oProgramme.longueur})"
+          distance = oProgramme.longueur
+        end
       else
         oProgramme = Evenement.find_by_nom(nom)
         if oProgramme.nil?
-          oProgramme = Evenement.create!(nom: nom, genre: "Programme 2012", categorie: "ROUTE",
+          oProgramme = Evenement.create!(nom: nom, genre: "Programme 2013", categorie: "ROUTE",
                                            description: observations, le: leBrute)
         end
       end
 
-      puts "#{groupe} - #{le_heure} - #{oProgramme.id} - #{programme_type} - #{observations}"
+      puts "#{groupe} - #{le_heure} - #{oProgramme.id} - #{distance} - #{programme_type} - #{observations}"
       oProgrammation = Programmation.create!(groupe: groupe, le: le_heure, programme_id: oProgramme.id,
-                                             programme_type: programme_type, observations: observations)
+                                             programme_type: programme_type, observations: observations, distance: distance)
       puts "#{oProgrammation}"
     end
   end

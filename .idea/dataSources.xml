@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" compressed="false" hash="3942827771" />
+  <component name="DataSourceManagerImpl" format="xml" hash="90115813">
+    <data-source source="LOCAL" name="Rails ccc: production" product="MySQL" version="5.1.39-1" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )" uuid="ab162ec2-a232-45d4-9e12-35e103c51858">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysql1.alwaysdata.com/ccc_prod</jdbc-url>
+      <user-name>ccc_cyclo</user-name>
+      <user-password>dfe9dfd3df99dfe9dfc6df99dfe9dfc5df9cdf98</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine40/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine40/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ccc: development" product="MySQL" version="5.5.25" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )" uuid="e0b19c9d-dce8-4a21-8924-c838bb6f7ee3">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <user-name>root</user-name>
+      <libraries>
+        <library>
+          <url>jar://$PROJECT_DIR$/mysql-connector-java-5.1.18-bin.jar!/</url>
+        </library>
+        <library>
+          <url>file://$PROJECT_DIR$/mysql-connector-license.txt</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ccc: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="8d614f82-bf5b-4a03-b87e-ef73fd568069">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ccc: cucumber" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="cbc86c4a-ad71-47c5-9992-9598e6c3e7e4">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ccc: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="7062ad34-942e-457c-87fe-d87caacca5b6">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysql1.alwaysdata.com/ccc_prod</jdbc-url>
+      <user-name>ccc_cyclo</user-name>
+      <user-password>dfe9dfd3df99dfe9dfc6df99dfe9dfc5df9cdf98</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine40/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>jar://$USER_HOME$/Library/Preferences/RubyMine40/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
 </project>
 

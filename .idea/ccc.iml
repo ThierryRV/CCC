@@ -104,6 +104,7 @@
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.12, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.35, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v1.2.3, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="webrick (v1.3.1, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket (v1.0.6, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.3, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xpath (v0.1.4, RVM: ruby-1.9.3-p0 [ccc]) [gem]" level="application" />

@@ -15,5 +15,6 @@ end
 #  created_at     :datetime        not null
 #  updated_at     :datetime        not null
 #  observations   :string(255)
+#  distance       :integer(4)
 #
 

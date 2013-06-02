@@ -20,6 +20,9 @@ class Circuit < ActiveRecord::Base
   has_many :rel_circuit_indications
   has_many :indications, :through => :rel_circuit_indications
 
+  scope :filtre_km, lambda { |km_min,km_max| where("longueur >= ? and longueur < ?", km_min.to_i, km_max.to_i) }
+  scope :filtre_village, lambda { |nom| where("id in (select circuit_id from rel_circuit_indications r, indications i where r.indication_id=i.id and upper(i.nom) like upper(?))", '%' + nom + '%') }
+
   def nom
     description
   end

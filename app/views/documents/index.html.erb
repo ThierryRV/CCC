@@ -1,0 +1,69 @@
+<%= provide(:title, 'Tous les documents de C.C.C.') %>
+<div class="row alert alert-info">
+  <div class="span12 center">
+    <h1>
+      <small>Toutes les publications du Club Cyclo de Courcouronnes</small>
+    </h1>
+  </div>
+</div>
+<div class="row alert alert-info">
+  <%= link_to 'Tous', {:controller => params[:controller], :action => params[:action], :annee_min => '0', :annee_max => '9999', :type_doc => ''}, {:class => "btn btn-primary"} %>
+  <%= link_to '< 2005', {:controller => params[:controller], :action => params[:action], :annee_min => '0', :annee_max => '2005'}, {:class => "btn btn-primary"} %>
+  <%= link_to '2005 - 2007', {:controller => params[:controller], :action => params[:action], :annee_min => '2006', :annee_max => '2007'}, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to '2008 - 2010', {:controller => params[:controller], :action => params[:action], :annee_min => '2008', :annee_max => '2010'}, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to '2010 >', {:controller => params[:controller], :action => params[:action], :annee_min => '2011', :annee_max => '9999'}, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to 'Lettre mensuelle', {:controller => params[:controller], :action => params[:action], :type_doc => 'Lettre mensuelle'}, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to 'Sorties mensuelles', {:controller => params[:controller], :action => params[:action], :type_doc => 'Sorties mensuelles'}, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to 'Tous', {:controller => params[:controller], :action => params[:action], :annee_min => '0', :annee_max => '9999', :type_doc => ''}, {:class => "btn btn-primary"} %>
+</div>
+<div class="row alert alert-info">
+  <div class="span10">
+    <%= render @documents %>
+  </div>
+</div>
+<div class="row alert alert-info">
+  <span class="span8"> <%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %> </span>
+  <% if !current_user.nil? && current_user.admin? %>
+      <span class="span3 pagination center"> <%= link_to "Créer un circuit", new_circuit_path, :class => "btn btn-primary" %> </span>
+  <% end %>
+</div>
+<div class="row alert alert-info">
+
+  <div class="span3">
+    <%= link_to 'Mettre à jour la base', maj_doc_base_path, {:class => "btn btn-primary"} %>
+  </div>
+
+  <div class="span5">
+    <%= form_tag '/upload_doc', :multipart => true do %>
+        <div class="fileupload fileupload-new" data-provides="fileupload">
+          <div class="input-append">
+            <div class="uneditable-input span3">
+              <i class="icon-file fileupload-exists">
+              </i>
+              <span class="fileupload-preview">
+              </span>
+            </div>
+            <span class="btn btn-file btn-primary">
+              <span class="fileupload-new">
+                Choisir
+              </span>
+              <span class="fileupload-exists btn-primary">
+                Changer
+              </span>
+              <input type="file" name="new_document" id="new_document">
+            </span>
+            <a href="#" class="btn fileupload-exists btn-primary" data-dismiss="fileupload">
+              Réinitialiser
+            </a>
+          </div>
+        </div>
+        <% o1 = "<option>"%>
+        <% o2 = "</option><option>"%>
+        <% o3 = "</option>"%>
+        <%= select_tag "type_doc", "#{o1}Assemblées générales#{o2}Lettres mensuelles#{o2}Sorties mensuelles#{o2}Autres#{o3}".html_safe, :multiple => false, :class => 'form_input', :size => 1 %>
+        <%= select_tag 'annee', "#{o1}2005#{o2}2006#{o2}2007#{o2}2008#{o2}2009#{o2}2010#{o2}2011#{o2}2013#{o2}2014#{o2}2015#{o2}2016#{o2}2017#{o2}2018#{o2}2019#{o3}".html_safe, :multiple => false, :class => 'form_input', :size => 1 %>
+        <%= select_tag 'mois', "#{o1}01#{o2}02#{o2}03#{o2}04#{o2}05#{o2}06#{o2}07#{o2}08#{o2}09#{o2}10#{o2}11#{o2}12#{o3}".html_safe, :multiple => false, :class => 'form_input', :size => 1 %>
+        <%= submit_tag "Télécharger", :class => "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>

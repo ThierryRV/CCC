@@ -1,16 +1,39 @@
 <%= provide(:title, 'Tous les circuits de C.C.C.') %>
-<h1>Tous les circuits de Club Cyclo de Courcouronnes</h1>
-
-<% if !current_user.nil? && current_user.admin? %>
-    <h3><%= link_to "Créer un circuit", new_circuit_path %></h3>
-<% end %>
-
-<%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>
-<div class="row">
-  <%= render @circuits %>
+<div class="row alert alert-info">
+  <div class="span12 center">
+    <h1>
+      <small>Tous les circuits du Club Cyclo de Courcouronnes</small>
+    </h1>
+  </div>
 </div>
-<%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>
+<div class="row alert alert-info">
+  <%= link_to 'Tous', {:controller => params[:controller], :action => params[:action], :km_min => '0', :km_max => '999' }, {:class => "btn btn-primary"} %>
+  <%= link_to '< 40', {:controller => params[:controller], :action => params[:action], :km_min => '0', :km_max => '40' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to '41-50', {:controller => params[:controller], :action => params[:action], :km_min => '41', :km_max => '50' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to '51-60', {:controller => params[:controller], :action => params[:action], :km_min => '51', :km_max => '60' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to '61-70', {:controller => params[:controller], :action => params[:action], :km_min => '61', :km_max => '70' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to '71-80', {:controller => params[:controller], :action => params[:action], :km_min => '71', :km_max => '80' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to '81-90', {:controller => params[:controller], :action => params[:action], :km_min => '81', :km_max => '90' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to '91-100', {:controller => params[:controller], :action => params[:action], :km_min => '91', :km_max => '100' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to '> 101', {:controller => params[:controller], :action => params[:action], :km_min => '101', :km_max => '999' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+  <%= link_to 'Tous', {:controller => params[:controller], :action => params[:action], :km_min => '0', :km_max => '999' }, {:class => "btn btn-primary"} %>
+</div>
+<div class="row alert alert-info">
+  <div class="span8">
+    <%= render @circuits %>
+  </div>
+  <div class="span3">
+    <%= form_tag({:controller => params[:controller], :action => params[:action]}, {:method => :get}) do -%>
+        <%= label_tag :village, "Village" %>
+        <%= text_field_tag :village, nil, :placeholder => 'Taper le nom du village...' %>
 
-<% if !current_user.nil? && current_user.admin? %>
-    <h3><%= link_to "Créer un circuit", new_circuit_path %></h3>
-<% end %>
+        <%= submit_tag "Chercher", class: "btn btn-primary" %>
+      <% end %>
+  </div>
+</div>
+<div class="row alert alert-info">
+  <span class="span8"> <%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %> </span>
+  <% if !current_user.nil? && current_user.admin? %>
+      <span class="span3 pagination center"> <%= link_to "Créer un circuit", new_circuit_path %> </span>
+  <% end %>
+</div>

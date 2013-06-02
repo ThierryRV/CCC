@@ -28,7 +28,7 @@ require 'open-uri'
 #end
 
 namespace :codep91 do
-  desc "charge la bible des circuits dans la base"
+  desc "charge le programme annuel du CODEP dans la base"
   task charger:  :environment do
     bible = File.expand_path('../../../data/FFCT-CODEP-91-2012.xml',  __FILE__)
     file_bible = File.open(bible)

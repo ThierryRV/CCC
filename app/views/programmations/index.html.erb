@@ -1,7 +1,29 @@
 <%= provide(:title, 'Tous les rendez-vous du CCC') %>
-<h1>Tous les rendez-vous du CCC</h1>
-<%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>
-<div  class="row">
-  <%= render @programmations %>
+<div class="row alert alert-info">
+  <div class="span12 center">
+    <h1>
+      <small>Tous les rendez-vous du CCC</small>
+    </h1>
+  </div>
 </div>
-<%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>
+<div class="row alert alert-info">
+    <%= link_to 'Tous', {:controller => params[:controller], :action => params[:action], :annee_min => '0', :annee_max => '9999', :type_doc => '' }, {:class => "btn btn-primary"} %>
+    <%= link_to '< 2005', {:controller => params[:controller], :action => params[:action], :annee_min => '0', :annee_max => '2005' }, {:class => "btn btn-primary"} %>
+    <%= link_to '2005 - 2007', {:controller => params[:controller], :action => params[:action], :annee_min => '2006', :annee_max => '2007' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+    <%= link_to '2008 - 2010', {:controller => params[:controller], :action => params[:action], :annee_min => '2008', :annee_max => '2010' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+    <%= link_to '2010 - 2012', {:controller => params[:controller], :action => params[:action], :annee_min => '2011', :annee_max => '2012' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+    <%= link_to '2013 >', {:controller => params[:controller], :action => params[:action], :annee_min => '2013', :annee_max => '9999' }, {:class => "btn btn-primary", "data-icon" => "button", "data-theme" => "button"} %>
+    <%= link_to 'Tous', {:controller => params[:controller], :action => params[:action], :annee_min => '0', :annee_max => '9999', :type_doc => '' }, {:class => "btn btn-primary"} %>
+</div>
+<div class="row alert alert-info">
+  <div class="span10">
+    <%= render @programmations %>
+  </div>
+</div>
+<div class="row alert alert-info">
+  <span class="span8"> <%= will_paginate @collection, :previous_label => t("Page précédente"), :next_label => t("Page suivante") %>
+   </span>
+  <% if !current_user.nil? && current_user.admin? %>
+      <span class="span3 pagination center"> <%= link_to "Créer un rendez-vous", new_programmation_path, :class => "btn btn-primary" %> </span>
+  <% end %>
+</div>

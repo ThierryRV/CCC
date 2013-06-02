@@ -1,0 +1,16 @@
+<div>
+  <%= link_to("#{document.chemin}/#{document.nom}/") do %>
+      <div class="span3"><%= document.type_doc %></div>
+      <div class="span2"><%= document.annee %></div>
+      <div class="span2"><%= document.mois %></div>
+  <% end %>
+</div>
+<% if !current_user.nil? && current_user.admin? %>
+    <div class="span1 editer">
+      <%= link_to "Editer", edit_document_path(document), :class => "btn"  %>
+    </div>
+    <div class="span1 supprimer">
+      <%= link_to "Supprimer", document, method: :delete, data: {confirm: "Êtes vous sûr ?"}, :class => "btn"  %>
+    </div>
+<% end %>
+<br/>

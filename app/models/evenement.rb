@@ -19,5 +19,6 @@ class Evenement < ActiveRecord::Base
   has_many :programmations, :as => :programme
 
   default_scope order: 'evenements.le DESC'
+  scope :filtre_annee, lambda { |date_min, date_max| where("le >= ? and le <=?", date_min,date_max) }
 
 end

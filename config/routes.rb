@@ -13,8 +13,9 @@ Ccc::Application.routes.draw do
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
   resources :circuits, only: [:index, :show, :edit, :create, :destroy, :update, :new]
-  resources :programmations, only: [:index, :show, :edit, :create, :destroy]
+  resources :programmations, only: [:index, :show, :edit, :create, :destroy, :new]
   resources :evenements, only: [:index, :show, :edit, :create, :destroy]
+  resources :documents, only: [:index, :show, :edit, :create, :destroy, :update, :new]
 
   root to: 'static_pages#home'
 
@@ -25,6 +26,9 @@ Ccc::Application.routes.draw do
   match '/help', to: 'static_pages#help'
   match '/about', to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
+
+  match '/maj_doc_base', to: 'documents#maj_base'
+  match '/upload_doc', to: 'documents#upload_doc'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

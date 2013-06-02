@@ -10,13 +10,15 @@
 #  created_at     :datetime        not null
 #  updated_at     :datetime        not null
 #  observations   :string(255)
+#  distance       :integer(4)
 #
 
 class Programmation < ActiveRecord::Base
-  attr_accessible :groupe, :le, :programme_id, :programme_type, :observations
+  attr_accessible :groupe, :le, :programme_id, :programme_type, :observations, :distance
 
   belongs_to :programme, :polymorphic => true, dependent: :destroy
 
+  scope :filtre_annee, lambda { |date_min, date_max| where("le >= ? and le <=?", date_min,date_max) }
 #  default_scope order: 'programmations.le DESC'
 
   #def self.next_10_dates(from)

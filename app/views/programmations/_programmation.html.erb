@@ -1,19 +1,20 @@
 <%= link_to(programmation) do %>
-    <div class="span1"><%= programmation.le.strftime("%d/%m/%Y") %></div>
+    <div class="span2"><%= programmation.le.strftime("%d/%m/%Y") %></div>
     <div class="span1"><%= programmation.le.strftime("%T") %></div>
-    <div class="span2"><%= programmation.groupe %></div>
+    <div class="span1"><%= programmation.groupe %></div>
+    <div class="span1"><%= programmation.distance.to_s + " km" %></div>
 <% end %>
-<div class="span4 programmation_nom">
+<div class="span3 programmation_nom">
   <%= link_to(programmation.programme) do %>
       <%= programmation.programme.nom %>
   <% end %>
 </div>
 <div class="span2 supprimer">
   <% if !current_user.nil? && current_user.admin? %>
-      <%= link_to "Supprimer", programmation, method: :delete, data: {confirm: "Êtes vous sûr ?"} %>
+      <%= link_to "Supprimer",programmation, method: :delete, data: {confirm: "Êtes vous sûr ?"}, :class => "btn" %>
   <% end %>
 </div>
 <br/>
 <div class="row">
-  <div class="span5 offset4"><%= markdown programmation.observations %></div>
+  <div class="span5 offset5"><%= markdown programmation.observations %></div>
 </div>

@@ -1,0 +1,64 @@
+
+Global setup:
+
+ Set up git
+  git config --global user.name "Thierry Hervé"
+  git config --global user.email thierry_herve@yahoo.fr
+ 
+git config --global --list     
+
+Next steps:
+
+  mkdir CCC
+  cd CCC
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin https://github.com/ThierryRV/CCC.git
+  git push -u origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin https://github.com/ThierryRV/CCC.git
+  git push -u origin master
+      
+
+Importing a Subversion Repo?
+
+  Check out the guide for step by step instructions.
+      
+
+When you're done:
+
+  Continue
+
+$ git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+$ git config --global http.proxy http://vip-px.main.aviva.eu.corp:8086
+$ git config --system http.sslcainfo /bin/curl-ca-bundle.crt
+$ git remote add origin https://mygithubuser:mygithubpwd@github.com/repoUser/repoName.git
+$ git push origin master
+
+git checkout -b following-users
+git checkout -b refonte-accueil
+
+git add .
+git commit -m "Refonte accueil"
+git checkout master
+git merge refonte-accueil
+
+git add .
+git commit -m "Programmations, Evenements et Circuits"
+git checkout master
+git merge programmation-et-bible
+
+git push -u origin master 
+ThierryRV
+MarcelRV_22
+
+cap deploy:setup
+Cy3Cl3Co62
+
+cap deploy:cold

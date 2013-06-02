@@ -1,0 +1,18 @@
+<li class="dropdown-submenu">
+  <a tabindex="-1" href="#">
+    <%= item %>
+  </a>
+  <ul class="dropdown-menu my-class" role="menu">
+    <% Dir.foreach("#{dirName}") do |dirNameLoop| %>
+        <% if (!dirNameLoop.nil? && dirNameLoop != "." && dirNameLoop != ".." ) %>
+            <% if File.directory?("#{dirName}/#{dirNameLoop}") %>
+                <% @dirName = "#{dirName}/#{dirNameLoop}" %>
+                <%= render 'layouts/documents_dir', dirName: @dirName, item: dirNameLoop %>
+            <% else %>
+                <% @fileName = "#{dirName}/#{dirNameLoop}" %>
+                <%= render 'layouts/documents_file', fileName: @fileName, item: dirNameLoop %>
+            <% end %>
+        <% end %>
+    <% end %>
+  </ul>
+</li>

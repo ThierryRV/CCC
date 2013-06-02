@@ -3,16 +3,16 @@
 class CircuitsController < ApplicationController
   before_filter :signed_in_user, only: [:edit, :update, :destroy,:create]
   before_filter :admin_user, only: [:edit, :update, :destroy,:create]
+  before_filter :circuits_filter, :only => [:index]
 
 
   def index
-    @circuits = Circuit.paginate(page: params[:page])
+    @circuits = @CircuitsFiltres.paginate(page: params[:page], per_page: 20)
   end
 
   def show
     @circuit = Circuit.find(params[:id])
   end
-
 
   def new
     @circuit = Circuit.new
@@ -52,4 +52,12 @@ class CircuitsController < ApplicationController
     redirect_to(root_path) unless current_user.admin?
   end
 
+  protected
+
+  def circuits_filter
+    km_min = params[:km_min] || 0
+    km_max = params[:km_max] || 999
+    nom_village = params[:village] || ""
+    @CircuitsFiltres = Circuit.filtre_km(km_min, km_max).filtre_village(nom_village)
+  end
 end

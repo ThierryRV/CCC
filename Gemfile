@@ -12,6 +12,7 @@ gem "nokogiri", "~> 1.5.5"
 gem "jquery-rails", "~> 2.1.2"
 gem 'redcarpet'
 gem 'imperavi-rails', '0.0.12.beta'
+gem 'webrick', '1.3.1'
 
 group :development do
   gem 'sqlite3', '1.3.5'

@@ -6,7 +6,7 @@ require 'open-uri'
 # rake codep91:charger
 
 namespace :codep91_2013 do
-  desc "charge la bible des circuits dans la base"
+  desc "charge le programme annuel du CODEP dans la base"
   task charger:  :environment do
     bible = File.expand_path('../../../data/FFCT-CODEP-91-2013.xml',  __FILE__)
     file_bible = File.open(bible)

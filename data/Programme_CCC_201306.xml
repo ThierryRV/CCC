@@ -1,0 +1,148 @@
+<Programmations>
+  <Programmation>
+    <Le>02/06/2013</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>74 A</Programme_nom>
+    <Distance>99</Distance>
+    <Heure_de_départ>07h30</Heure_de_départ>
+    <Observations>
+      **Sud : Rumont**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>02/06/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>44 A</Programme_nom>
+    <Distance>75</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud : Arbonne**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>08/06/2013</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Paris – Sancerre</Programme_nom>
+    <Distance>220</Distance>
+    <Heure_de_départ>06h00</Heure_de_départ>
+    <Observations>
+      Mairie de Chilly-Mazarin
+      Place du 8 Mai 1945
+      14€ avec repas
+      3€ pris par le club
+      Inscription avant le 26 mai
+      Pas de car pour le retour
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>09/06/2013</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>73 A</Programme_nom>
+    <Distance>98</Distance>
+    <Heure_de_départ>07h30</Heure_de_départ>
+    <Observations>
+      **Ouest : Longvilliers**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>09/06/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>43 A</Programme_nom>
+    <Distance>75</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Ouest : Vaugrineuse**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>16/06/2013</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>78 A</Programme_nom>
+    <Distance>101</Distance>
+    <Heure_de_départ>07h30</Heure_de_départ>
+    <Observations>
+      **Sud/Est : Larchant**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>16/06/2013</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>48 A</Programme_nom>
+    <Distance>78</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/Est : Milly-la-Forêt**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>23/06/2013</Le>
+    <Groupe>RS & R & C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Journée pique-nique club</Programme_nom>
+    <Distance>0</Distance>
+    <Heure_de_départ>00h00</Heure_de_départ>
+    <Observations>
+      **Inscription impérative avant le 02 juin 2013**
+      **(mail au président ou secrétaire)**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>30/06/2013</Le>
+    <Groupe>RS & R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>110ème anniversaire du 1er départ Tour de France</Programme_nom>
+    <Distance>110</Distance>
+    <Heure_de_départ>07h00</Heure_de_départ>
+    <Observations>
+      Cycles Galland
+      Montgeron
+      **Sur place**
+      Tarif : 3,5€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>30/06/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>110ème anniversaire du 1er départ Tour de France</Programme_nom>
+    <Distance>80</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      Cycles Galland
+      Montgeron
+      **Sur place**
+      Tarif : 3,5€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>30/06/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>110ème anniversaire du 1er départ Tour de France</Programme_nom>
+    <Distance>50</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      Cycles Galland
+      Montgeron
+      **Sur place**
+      Tarif : 3,5€
+    </Observations>
+  </Programmation>
+</Programmations>

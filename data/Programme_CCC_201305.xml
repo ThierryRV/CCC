@@ -1,0 +1,388 @@
+<Programmations>
+  <Programmation>
+    <Le>01/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE DES 3 VALLEES</Programme_nom>
+    <Distance>100</Distance>
+    <Heure_de_départ>07h30</Heure_de_départ>
+    <Observations>
+      Sur place
+			Salle des Associations
+			Rue J. Ferry Méréville
+			Tarif : 3,50€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>01/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE DES 3 VALLEES</Programme_nom>
+    <Distance>75</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      Sur place
+			Salle des Associations
+			Rue J. Ferry Méréville
+			Tarif : 3,50€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>01/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE DES 3 VALLEES</Programme_nom>
+    <Distance>50</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      Sur place
+			Salle des Associations
+			Rue J. Ferry Méréville
+			Tarif : 3,50€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>01/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>61 A</Programme_nom>
+    <Distance>89</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/Est : La Chapelle la reine**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>01/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>40 A</Programme_nom>
+    <Distance>74</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/Est : Carrefour du TCF**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>04/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Saint-Arnoult Maillebois Saint Arnoult</Programme_nom>
+    <Distance>213</Distance>
+    <Heure_de_départ>6h30</Heure_de_départ>
+    <Observations>
+      Sur place
+			Stade � Rue du Nuisement
+			Saint Arnoult
+			Inscriptions avant le 21 avril
+			Tarif : 6€ + 8€ si réservation plateau repas
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>04/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>Saint-Arnoult Maillebois Saint Arnoult</Programme_nom>
+    <Distance>127</Distance>
+    <Heure_de_départ>6h30</Heure_de_départ>
+    <Observations>
+      Sur place
+			Stade � Rue du Nuisement
+			Saint Arnoult
+			Inscriptions avant le 21 avril
+			Tarif : 6€ + 8€ si réservation plateau repas
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>05/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE SOUVENIR AUGUSTE LE GOVIC</Programme_nom>
+    <Distance>120</Distance>
+    <Heure_de_départ>07h00</Heure_de_départ>
+    <Observations>
+      Sur place
+			Stade municipal
+			Avenue du Coudray
+			Le Coudray Montceaux
+			Tarif : 3,50€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>05/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE SOUVENIR AUGUSTE LE GOVIC</Programme_nom>
+    <Distance>90</Distance>
+    <Heure_de_départ>07h30</Heure_de_départ>
+    <Observations>
+      Sur place
+			Stade municipal
+			Avenue du Coudray
+			Le Coudray Montceaux
+			Tarif : 3,50€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>05/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RANDONNEE SOUVENIR AUGUSTE LE GOVIC</Programme_nom>
+    <Distance>60</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      Sur place
+			Stade municipal
+			Avenue du Coudray
+			Le Coudray Montceaux
+			Tarif : 3,50€
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>05/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>TOUR DE L’ESSONNE</Programme_nom>
+    <Distance>170</Distance>
+    <Heure_de_départ>07h00</Heure_de_départ>
+    <Observations>
+      Salle Anne Frank
+			LongjumeauSur place
+			Inscriptions avant le 21 avril
+			Tarif : 7€
+			3,5€ pris en charge club
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>08/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RRALLYE DE VILLEBON SPORT POUR TOUS</Programme_nom>
+    <Distance>87</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      Sur place
+			**3E TROPHEE ROUTE**
+			Centre Sportif Saint Exupery
+			Villebon sur Yvette
+			Tarif : 3,50€ pris en charge par le club
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>08/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>RALLYE DE VILLEBON SPORT POUR TOUS</Programme_nom>
+    <Distance>67</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      Sur place
+			**3E TROPHEE ROUTE**
+			Centre Sportif Saint Exupery
+			Villebon sur Yvette
+			Tarif : 3,50€ pris en charge par le club
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>09/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>60 A</Programme_nom>
+    <Distance>87</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/O : Fontaine la rivière**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>09/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>39 A</Programme_nom>
+    <Distance>74</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/O : Bouville**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>12/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>62 A</Programme_nom>
+    <Distance>90</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/O : Saudreville**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>12/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>37 B</Programme_nom>
+    <Distance>72</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/O : St Fiacre**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>18/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA BALLAINVILLOISE</Programme_nom>
+    <Distance>180</Distance>
+    <Heure_de_départ>07h00</Heure_de_départ>
+    <Observations>
+      Sur place
+			Les Daunettes
+			Ballainvilliers
+			Inscriptions avant le 04 mai
+			Tarif : 3,5€ + 10€ si plateau repas
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>18/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA BALLAINVILLOISE</Programme_nom>
+    <Distance>125</Distance>
+    <Heure_de_départ>07h00</Heure_de_départ>
+    <Observations>
+      Sur place
+			Les Daunettes
+			Ballainvilliers
+			Inscriptions avant le 04 mai
+			Tarif : 3,5€ + 10€ si plateau repas
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>19/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>63 A</Programme_nom>
+    <Distance>92</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud : Fontaine la Rivière**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>19/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>42 A</Programme_nom>
+    <Distance>75</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud : Prunay sur Essonne**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>20/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>52 A</Programme_nom>
+    <Distance>83</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud : Achères la Forêt**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>20/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>32 A</Programme_nom>
+    <Distance>69</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud : Arbonne**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>25/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA SAVINIENNE</Programme_nom>
+    <Distance>103</Distance>
+    <Heure_de_départ>06h30</Heure_de_départ>
+    <Observations>
+      Sur place
+			Parc des Sports Jean Moulin
+			31 Bis Av De l'Armée Leclerc
+			Savigny sur Orge
+			Tarif : 3,50€
+			Tarif : 13,50€ avec repas
+			3,5€ pris en charge par club
+			Inscription avant le 11 mai
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>25/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Evenement</Programme_type>
+    <Programme_nom>LA SAVINIENNE</Programme_nom>
+    <Distance>200</Distance>
+    <Heure_de_départ>06h30</Heure_de_départ>
+    <Observations>
+      Sur place
+			Parc des Sports Jean Moulin
+			31 Bis Av De l'Armée Leclerc
+			Savigny sur Orge
+			Tarif : 3,50€
+			Tarif : 13,50€ avec repas
+			3,5€ pris en charge par club
+			Inscription avant le 11 mai
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>26/05/2013</Le>
+    <Groupe>RS &amp; R</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>67 A</Programme_nom>
+    <Distance>94</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+      **Sud/Est : Sivry-Courtry**
+    </Observations>
+  </Programmation>
+
+  <Programmation>
+    <Le>26/05/2013</Le>
+    <Groupe>C</Groupe>
+    <Programme_type>Circuit</Programme_type>
+    <Programme_nom>48 A</Programme_nom>
+    <Distance>78</Distance>
+    <Heure_de_départ>08h00</Heure_de_départ>
+    <Observations>
+			**Sud/Est : Milly la Forêt**
+    </Observations>
+  </Programmation>
+</Programmations>
