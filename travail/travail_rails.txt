@@ -50,3 +50,4 @@ rake --trace programme_ccc:charger
 
 rails generate migration add_distance_to_programmations distance:integer
 rake db:migrate
+

@@ -80,13 +80,13 @@ class DocumentsController < ApplicationController
     case type_doc
       when "Assemblées générales"
         then
-          nom_fichier = Rails.root.join('public', 'documents', "Assemblées générales","AG_#{annee}.pdf")
+          nom_fichier = Rails.root.join('public', 'documents', "Assemblées générales","AG_#{annee}.pdf")[1,-1]
       when "Sorties mensuelles"
         then
           nom_fichier = Rails.root.join('public', 'documents', "Sorties mensuelles", "#{annee}", "Sorties mensuelles #{annee} #{mois}.pdf")
       when "Lettres mensuelles"
         then
-          nom_fichier = Rails.root.join('public', 'documents', "Lettres mensuelles", "#{annee}", "Lettre mensuelle  #{annee} #{mois}.pdf")
+          nom_fichier = Rails.root.join('public', 'documents', "Lettres mensuelles", "#{annee}", "Lettre mensuelle #{annee} #{mois}.pdf")
       when "Autres"
         then
           nom_fichier = Rails.root.join('public', 'documents', "Autres",new_document.original_filename)
